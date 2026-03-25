@@ -41,6 +41,8 @@ func (b *BankIteration) Iterate(
 		b.handleBuyTrain(state, actionValues)
 	case ActionLayTile:
 		b.handleLayTile(state, actionValues)
+	case ActionPayDividends:
+		b.handlePayDividends(state, actionValues)
 	}
 
 	return state
@@ -90,6 +92,14 @@ func (b *BankIteration) checkPhaseAdvance(state []float64, trainIdx int) {
 			break
 		}
 	}
+}
+
+// handlePayDividends decreases bank cash by total dividends paid out.
+// The bank pays dividends on behalf of the company to all shareholders.
+func (b *BankIteration) handlePayDividends(state []float64, action []float64) {
+	revenue := action[ActionArg0+1]
+	// All revenue is paid out from the bank to shareholders.
+	state[BankCash] -= revenue
 }
 
 func (b *BankIteration) handleLayTile(state []float64, action []float64) {
@@ -148,4 +158,21 @@ func (b *BankBrokenTerminationCondition) Terminate(
 ) bool {
 	bankState := stateHistories[b.BankPartitionIndex].Values.RawRowView(0)
 	return bankState[BankCash] <= 0
+}
+
+// OrTerminationCondition terminates when ANY of the given conditions is met.
+type OrTerminationCondition struct {
+	Conditions []simulator.TerminationCondition
+}
+
+func (o *OrTerminationCondition) Terminate(
+	stateHistories []*simulator.StateHistory,
+	timestepsHistory *simulator.CumulativeTimestepsHistory,
+) bool {
+	for _, c := range o.Conditions {
+		if c.Terminate(stateHistories, timestepsHistory) {
+			return true
+		}
+	}
+	return false
 }

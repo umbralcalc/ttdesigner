@@ -39,6 +39,36 @@ func TestHeuristicAgent(t *testing.T) {
 		}
 	})
 
+	t.Run("full_game_to_bank_break", func(t *testing.T) {
+		builder := engine.NewGameBuilder(4, &HeuristicAgent{})
+		settings, implementations := builder.Build()
+		layout := builder.Layout()
+
+		// Use bank-broken OR max steps, whichever comes first.
+		implementations.TerminationCondition = &engine.OrTerminationCondition{
+			Conditions: []simulator.TerminationCondition{
+				&engine.BankBrokenTerminationCondition{BankPartitionIndex: layout.BankPartition},
+				&simulator.NumberOfStepsTerminationCondition{MaxNumberOfSteps: 5000},
+			},
+		}
+
+		coordinator := simulator.NewPartitionCoordinator(settings, implementations)
+		coordinator.Run()
+
+		bankState := coordinator.Shared.StateHistories[layout.BankPartition].Values.RawRowView(0)
+		steps := coordinator.Shared.TimestepsHistory.CurrentStepNumber
+
+		t.Logf("game ended after %d steps, bank cash: %.0f", steps, bankState[engine.BankCash])
+
+		// Game should terminate in a reasonable number of steps.
+		if steps >= 5000 {
+			t.Errorf("game did not terminate within 5000 steps (likely stuck)")
+		}
+		if steps < 50 {
+			t.Errorf("game ended suspiciously fast (%d steps)", steps)
+		}
+	})
+
 	t.Run("pars_a_company_in_sr", func(t *testing.T) {
 		builder := engine.NewGameBuilder(4, &HeuristicAgent{})
 		settings, implementations := builder.Build()

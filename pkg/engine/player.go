@@ -29,16 +29,25 @@ func (p *PlayerIteration) Iterate(
 
 	turnValues := params.Get("turn_values")
 	actionValues := params.Get("action_values")
+	bankValues := params.Get("bank_values")
 	actionType := actionValues[ActionType]
+
+	// Close privates at phase 5+ (first 5-train triggers close_companies).
+	p.checkPrivateClosure(state, bankValues)
 
 	activeType := turnValues[TurnActiveType]
 	activeID := int(turnValues[TurnActiveID])
 
-	// Only process if this player is the active entity.
+	// Dividends affect ALL players (each shareholder gets paid).
+	// Handle these before the active-player check.
+	switch actionType {
+	case ActionPayDividends:
+		p.handleReceiveDividend(state, actionValues)
+	}
+
+	// Only process remaining actions if this player is the active entity.
 	isActivePlayer := activeType == ActivePlayer && activeID == p.PlayerIndex
 	if !isActivePlayer {
-		// Still need to handle actions that affect non-active players
-		// (e.g., dividends paying all shareholders). Handled in later steps.
 		return state
 	}
 
@@ -92,6 +101,32 @@ func (p *PlayerIteration) handleParCompany(state []float64, action []float64) {
 	state[PlayerCash] -= cost
 	state[PlayerShareIdx(companyID)] += numShares
 	state[PlayerCertCount] += numShares
+}
+
+// checkPrivateClosure zeroes out all private holdings when phase >= 3 (5-train phase).
+// Phase indices: 0=2-train, 1=3-train, 2=4-train, 3=5-train, 4=6-train, 5=D-train.
+func (p *PlayerIteration) checkPrivateClosure(state []float64, bankValues []float64) {
+	phase := int(bankValues[BankTrainPhase])
+	if phase < 3 { // phase 3 = 5-train
+		return
+	}
+	for i := range p.Config.Privates {
+		state[PlayerPrivateIdx(i)] = 0
+	}
+}
+
+func (p *PlayerIteration) handleReceiveDividend(state []float64, action []float64) {
+	companyID := int(action[ActionArg0])
+	totalRevenue := action[ActionArg0+1]
+
+	sharesHeld := state[PlayerShareIdx(companyID)]
+	if sharesHeld <= 0 {
+		return
+	}
+
+	// Each share receives 1/10 of total revenue (10 shares total).
+	perShare := totalRevenue / 10.0
+	state[PlayerCash] += perShare * sharesHeld
 }
 
 // InitPlayerState returns the initial state for a player partition.

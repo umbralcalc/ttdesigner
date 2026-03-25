@@ -78,60 +78,60 @@ func Default1889Map() []HexDef {
 		{ID: "F9", Name: "Kouchi", Type: HexCity, Slots: 2, Revenue: 30, Label: "K", Cost: 80, PrePrintedTile: -1},
 
 		// === CITIES (white, buildable) ===
-		{ID: "E2", Name: "Matsuyama", Type: HexCity, Slots: 1},
-		{ID: "F3", Name: "Saijou", Type: HexCity, Slots: 1},
-		{ID: "G4", Name: "Niihama", Type: HexCity, Slots: 1},
-		{ID: "H7", Name: "Ikeda", Type: HexCity, Slots: 1},
-		{ID: "I2", Name: "Marugame", Type: HexCity, Slots: 1},
-		{ID: "K8", Name: "Tokushima", Type: HexCity, Slots: 1},
-		{ID: "A10", Name: "Sukumo", Type: HexCity, Slots: 1},
-		{ID: "C10", Name: "Kubokawa", Type: HexCity, Slots: 1},
-		{ID: "J11", Name: "Anan", Type: HexCity, Slots: 1},
-		{ID: "G12", Name: "Nahari", Type: HexCity, Slots: 1},
+		{ID: "E2", Name: "Matsuyama", Type: HexCity, Slots: 1, PrePrintedTile: -1},
+		{ID: "F3", Name: "Saijou", Type: HexCity, Slots: 1, PrePrintedTile: -1},
+		{ID: "G4", Name: "Niihama", Type: HexCity, Slots: 1, PrePrintedTile: -1},
+		{ID: "H7", Name: "Ikeda", Type: HexCity, Slots: 1, PrePrintedTile: -1},
+		{ID: "I2", Name: "Marugame", Type: HexCity, Slots: 1, PrePrintedTile: -1},
+		{ID: "K8", Name: "Tokushima", Type: HexCity, Slots: 1, PrePrintedTile: -1},
+		{ID: "A10", Name: "Sukumo", Type: HexCity, Slots: 1, PrePrintedTile: -1},
+		{ID: "C10", Name: "Kubokawa", Type: HexCity, Slots: 1, PrePrintedTile: -1},
+		{ID: "J11", Name: "Anan", Type: HexCity, Slots: 1, PrePrintedTile: -1},
+		{ID: "G12", Name: "Nahari", Type: HexCity, Slots: 1, PrePrintedTile: -1},
 
 		// === TOWNS ===
-		{ID: "J5", Name: "Ritsurin Kouen", Type: HexTown},
-		{ID: "B11", Name: "Nakamura", Type: HexTown},   // port
-		{ID: "G10", Name: "Nangoku", Type: HexTown},     // port
-		{ID: "I12", Name: "Muki", Type: HexTown},        // port
-		{ID: "J9", Name: "Komatsujima", Type: HexTown},  // port
+		{ID: "J5", Name: "Ritsurin Kouen", Type: HexTown, PrePrintedTile: -1},
+		{ID: "B11", Name: "Nakamura", Type: HexTown, PrePrintedTile: -1},   // port
+		{ID: "G10", Name: "Nangoku", Type: HexTown, PrePrintedTile: -1},     // port
+		{ID: "I12", Name: "Muki", Type: HexTown, PrePrintedTile: -1},        // port
+		{ID: "J9", Name: "Komatsujima", Type: HexTown, PrePrintedTile: -1},  // port
 
 		// === KOTOHIRA (city with label H and upgrade cost) ===
-		{ID: "I4", Name: "Kotohira", Type: HexCity, Slots: 1, Label: "H", Cost: 80},
+		{ID: "I4", Name: "Kotohira", Type: HexCity, Slots: 1, Label: "H", Cost: 80, PrePrintedTile: -1},
 
 		// === MOUNTAIN TERRAIN ===
-		{ID: "E4", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "D5", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "F5", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "C6", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "E6", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "G6", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "D7", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "F7", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "A8", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "G8", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "B9", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "H9", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "H11", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
-		{ID: "H13", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80},
+		{ID: "E4", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "D5", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "F5", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "C6", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "E6", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "G6", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "D7", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "F7", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "A8", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "G8", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "B9", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "H9", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "H11", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
+		{ID: "H13", Name: "", Type: HexEmpty, Terrain: TerrainMountain, Cost: 80, PrePrintedTile: -1},
 
 		// === WATER TERRAIN ===
-		{ID: "K6", Name: "", Type: HexEmpty, Terrain: TerrainWater, Cost: 80},
+		{ID: "K6", Name: "", Type: HexEmpty, Terrain: TerrainWater, Cost: 80, PrePrintedTile: -1},
 
 		// === MOUNTAIN + WATER TERRAIN ===
-		{ID: "H5", Name: "", Type: HexEmpty, Terrain: TerrainMountainWater, Cost: 80},
-		{ID: "I6", Name: "", Type: HexEmpty, Terrain: TerrainMountainWater, Cost: 80},
+		{ID: "H5", Name: "", Type: HexEmpty, Terrain: TerrainMountainWater, Cost: 80, PrePrintedTile: -1},
+		{ID: "I6", Name: "", Type: HexEmpty, Terrain: TerrainMountainWater, Cost: 80, PrePrintedTile: -1},
 
 		// === PLAIN EMPTY ===
-		{ID: "D3", Name: "", Type: HexEmpty},
-		{ID: "H3", Name: "", Type: HexEmpty},
-		{ID: "J3", Name: "", Type: HexEmpty},
-		{ID: "B5", Name: "", Type: HexEmpty},
-		{ID: "C8", Name: "", Type: HexEmpty},
-		{ID: "E8", Name: "", Type: HexEmpty},
-		{ID: "I8", Name: "", Type: HexEmpty},
-		{ID: "D9", Name: "", Type: HexEmpty},
-		{ID: "I10", Name: "", Type: HexEmpty},
+		{ID: "D3", Name: "", Type: HexEmpty, PrePrintedTile: -1},
+		{ID: "H3", Name: "", Type: HexEmpty, PrePrintedTile: -1},
+		{ID: "J3", Name: "", Type: HexEmpty, PrePrintedTile: -1},
+		{ID: "B5", Name: "", Type: HexEmpty, PrePrintedTile: -1},
+		{ID: "C8", Name: "", Type: HexEmpty, PrePrintedTile: -1},
+		{ID: "E8", Name: "", Type: HexEmpty, PrePrintedTile: -1},
+		{ID: "I8", Name: "", Type: HexEmpty, PrePrintedTile: -1},
+		{ID: "D9", Name: "", Type: HexEmpty, PrePrintedTile: -1},
+		{ID: "I10", Name: "", Type: HexEmpty, PrePrintedTile: -1},
 	}
 }
 

@@ -37,6 +37,8 @@ func (m *MapIteration) Iterate(
 		m.handleLayTile(state, actionValues)
 	case ActionPlaceToken:
 		m.handlePlaceToken(state, actionValues)
+	case ActionParCompany:
+		m.handleParHomeToken(state, actionValues)
 	}
 
 	return state
@@ -49,6 +51,22 @@ func (m *MapIteration) handleLayTile(state []float64, action []float64) {
 
 	state[MapTileIdx(hexIdx)] = tileID
 	state[MapOrientIdx(hexIdx)] = orientation
+}
+
+// handleParHomeToken places the home token when a company is parred.
+func (m *MapIteration) handleParHomeToken(state []float64, action []float64) {
+	companyID := int(action[ActionArg0])
+	if companyID < 0 || companyID >= len(m.Config.Companies) {
+		return
+	}
+	homeHex := m.Config.Companies[companyID].HomeHex
+	for i, h := range m.Hexes {
+		if h.ID == homeHex {
+			companyBit := float64(int(1) << companyID)
+			state[MapTokenIdx(i)] += companyBit
+			return
+		}
+	}
 }
 
 func (m *MapIteration) handlePlaceToken(state []float64, action []float64) {

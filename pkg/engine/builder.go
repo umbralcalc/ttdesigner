@@ -165,6 +165,7 @@ func (b *GameBuilder) Build() (*simulator.Settings, *simulator.Implementations) 
 			ParamsFromUpstream: map[string]simulator.NamedUpstreamConfig{
 				"action_values": {Upstream: PartAction},
 				"turn_values":   {Upstream: PartTurn},
+				"bank_values":   {Upstream: PartBank},
 			},
 			InitStateValues:   InitCompanyState(),
 			StateHistoryDepth: 1,
@@ -183,6 +184,7 @@ func (b *GameBuilder) Build() (*simulator.Settings, *simulator.Implementations) 
 			ParamsFromUpstream: map[string]simulator.NamedUpstreamConfig{
 				"action_values": {Upstream: PartAction},
 				"turn_values":   {Upstream: PartTurn},
+				"bank_values":   {Upstream: PartBank},
 			},
 			InitStateValues:   InitPlayerState(b.Config, b.NumPlayers),
 			StateHistoryDepth: 1,

@@ -29,7 +29,11 @@ func (c *CompanyIteration) Iterate(
 
 	turnValues := params.Get("turn_values")
 	actionValues := params.Get("action_values")
+	bankValues := params.Get("bank_values")
 	actionType := actionValues[ActionType]
+
+	// Check for train rusting every step based on current bank phase.
+	c.checkTrainRusting(state, bankValues)
 
 	// Handle actions directed at this company.
 	switch actionType {
@@ -45,6 +49,8 @@ func (c *CompanyIteration) Iterate(
 		c.handlePayDividends(state, actionValues, turnValues)
 	case ActionWithhold:
 		c.handleWithhold(state, actionValues, turnValues)
+	case ActionPlaceToken:
+		c.handlePlaceToken(state, actionValues, turnValues)
 	}
 
 	return state
@@ -119,6 +125,31 @@ func (c *CompanyIteration) handleWithhold(state []float64, action, turn []float6
 	revenue := action[ActionArg0+1]
 	state[CompTreasury] += revenue
 	state[CompLastRevenue] = revenue
+}
+
+// checkTrainRusting removes trains that have rusted based on the current bank phase.
+// A train rusts when bank supply for that train type is 0 and its RustsOn field
+// matches a train type that has been purchased (triggering a phase advance).
+func (c *CompanyIteration) checkTrainRusting(state []float64, bankValues []float64) {
+	for i, train := range c.Config.Trains {
+		if train.RustsOn == "" {
+			continue
+		}
+		// Check if bank availability for this train type is 0 (rusted).
+		bankAvail := bankValues[BankTrainsBase+i]
+		if bankAvail <= 0 && state[CompTrainsBase+i] > 0 {
+			state[CompTrainsBase+i] = 0
+		}
+	}
+}
+
+func (c *CompanyIteration) handlePlaceToken(state []float64, action, turn []float64) {
+	if turn[TurnActiveType] != ActiveCompany || int(turn[TurnActiveID]) != c.CompanyIndex {
+		return
+	}
+	cost := action[ActionArg0+2]
+	state[CompTreasury] -= cost
+	state[CompTokensRemain] -= 1
 }
 
 // InitCompanyState returns the initial state for a company partition.

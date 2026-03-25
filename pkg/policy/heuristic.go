@@ -109,7 +109,7 @@ func (h *HeuristicAgent) chooseOperatingRoundAction(ctx *engine.GameContext) []f
 	case engine.ORStepTileLay:
 		return h.chooseTileLay(ctx, companyIndex)
 	case engine.ORStepToken:
-		return passAction() // stub
+		return h.chooseToken(ctx, companyIndex)
 	case engine.ORStepRoutes:
 		return h.chooseRouteAction(ctx, companyIndex)
 	case engine.ORStepBuyTrain:
@@ -129,6 +129,22 @@ func (h *HeuristicAgent) chooseTileLay(ctx *engine.GameContext, companyIndex int
 
 	// Pick the first legal tile placement (simple heuristic).
 	// Prefer placements near the company's home hex — but for now, just pick first.
+	return actions[0].Values[:]
+}
+
+func (h *HeuristicAgent) chooseToken(ctx *engine.GameContext, companyIndex int) []float64 {
+	tokenCtx := engine.ExtractTokenContext(
+		companyIndex,
+		ctx.StateHistories,
+		ctx.Config,
+		gamedata.Default1889Map(),
+		ctx.Layout,
+	)
+	actions := engine.LegalTokenActions(tokenCtx)
+	if len(actions) == 0 {
+		return passAction()
+	}
+	// Place cheapest token available.
 	return actions[0].Values[:]
 }
 
@@ -197,9 +213,17 @@ func (h *HeuristicAgent) chooseBuyTrain(ctx *engine.GameContext, companyIndex in
 		totalTrains += int(compState[engine.CompTrainsBase+i])
 	}
 
+	// Check train limit for current phase.
+	gamePhase := int(bankState[engine.BankTrainPhase])
+	trainLimit := ctx.Config.Phases[gamePhase].TrainLimit
+
 	// Must own at least one train. Buy cheapest available.
-	if totalTrains > 0 {
+	// Also buy if under train limit (simple heuristic).
+	if totalTrains >= trainLimit {
 		return passAction()
+	}
+	if totalTrains > 0 {
+		return passAction() // already has a train, don't buy more for now
 	}
 
 	for i, tr := range ctx.Config.Trains {
