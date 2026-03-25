@@ -111,9 +111,9 @@ func (h *HeuristicAgent) chooseOperatingRoundAction(ctx *engine.GameContext) []f
 	case engine.ORStepToken:
 		return passAction() // stub
 	case engine.ORStepRoutes:
-		return passAction() // stub until route-finding
+		return h.chooseRouteAction(ctx, companyIndex)
 	case engine.ORStepBuyTrain:
-		return passAction() // stub
+		return h.chooseBuyTrain(ctx, companyIndex)
 	default:
 		return passAction()
 	}
@@ -130,6 +130,95 @@ func (h *HeuristicAgent) chooseTileLay(ctx *engine.GameContext, companyIndex int
 	// Pick the first legal tile placement (simple heuristic).
 	// Prefer placements near the company's home hex — but for now, just pick first.
 	return actions[0].Values[:]
+}
+
+func (h *HeuristicAgent) chooseRouteAction(ctx *engine.GameContext, companyIndex int) []float64 {
+	compState := ctx.StateHistories[ctx.Layout.CompanyPartitions[companyIndex]].Values.RawRowView(0)
+	mapState := ctx.StateHistories[ctx.Layout.MapPartition].Values.RawRowView(0)
+	bankState := ctx.StateHistories[ctx.Layout.BankPartition].Values.RawRowView(0)
+	gamePhase := int(bankState[engine.BankTrainPhase])
+
+	hexes := gamedata.Default1889Map()
+	tileDefs := gamedata.Default1889Tiles()
+	adjacency := gamedata.Default1889Adjacency()
+
+	graph := engine.BuildTrackGraph(mapState, hexes, tileDefs, adjacency)
+
+	// Collect trains held by this company.
+	var trains []int
+	var distances []int
+	for i, tr := range ctx.Config.Trains {
+		count := int(compState[engine.CompTrainsBase+i])
+		for j := 0; j < count; j++ {
+			trains = append(trains, i)
+			distances = append(distances, tr.Distance)
+		}
+	}
+
+	if len(trains) == 0 {
+		return passAction()
+	}
+
+	_, totalRevenue := engine.OptimalRouteAssignment(graph, companyIndex, trains, distances, gamePhase)
+
+	if totalRevenue == 0 {
+		return passAction()
+	}
+
+	// Heuristic: pay dividends if revenue > 2x cheapest needed train cost, else withhold.
+	// Simple version: always pay dividends if we have revenue.
+	action := make([]float64, engine.ActionStateWidth)
+	needsTrain := len(trains) == 0
+	treasury := compState[engine.CompTreasury]
+
+	if needsTrain && treasury < float64(totalRevenue)*2 {
+		// Withhold to build treasury.
+		action[engine.ActionType] = engine.ActionWithhold
+		action[engine.ActionArg0] = float64(companyIndex)
+		action[engine.ActionArg0+1] = float64(totalRevenue)
+	} else {
+		// Pay dividends.
+		action[engine.ActionType] = engine.ActionPayDividends
+		action[engine.ActionArg0] = float64(companyIndex)
+		action[engine.ActionArg0+1] = float64(totalRevenue)
+	}
+
+	return action
+}
+
+func (h *HeuristicAgent) chooseBuyTrain(ctx *engine.GameContext, companyIndex int) []float64 {
+	compState := ctx.StateHistories[ctx.Layout.CompanyPartitions[companyIndex]].Values.RawRowView(0)
+	bankState := ctx.StateHistories[ctx.Layout.BankPartition].Values.RawRowView(0)
+	treasury := compState[engine.CompTreasury]
+
+	// Count trains held.
+	totalTrains := 0
+	for i := range ctx.Config.Trains {
+		totalTrains += int(compState[engine.CompTrainsBase+i])
+	}
+
+	// Must own at least one train. Buy cheapest available.
+	if totalTrains > 0 {
+		return passAction()
+	}
+
+	for i, tr := range ctx.Config.Trains {
+		avail := bankState[engine.BankTrainsBase+i]
+		if avail <= 0 {
+			continue
+		}
+		cost := float64(tr.Price)
+		if treasury < cost {
+			continue
+		}
+		action := make([]float64, engine.ActionStateWidth)
+		action[engine.ActionType] = engine.ActionBuyTrain
+		action[engine.ActionArg0] = float64(i)
+		action[engine.ActionArg0+1] = cost
+		return action
+	}
+
+	return passAction()
 }
 
 // extractTileLayContextFromGameCtx bridges GameContext → TileLayContext.
