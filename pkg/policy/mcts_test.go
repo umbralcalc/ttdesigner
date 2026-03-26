@@ -140,6 +140,79 @@ func TestMCTSPlayoutPartitions(t *testing.T) {
 	})
 }
 
+func TestMCTSBeatsHeuristic(t *testing.T) {
+	if testing.Short() {
+		t.Skip("skipping MCTS benchmark in short mode")
+	}
+
+	numGames := 10
+	mctsPlayer := 0
+	numPlayers := 4
+	numCompanies := 7
+
+	mctsWins := 0
+	mctsTotalRank := 0
+
+	for g := 0; g < numGames; g++ {
+		agent := NewMCTSAgent(mctsPlayer, 5)
+		agent.MaxPlayoutSteps = 1000
+
+		builder := engine.NewGameBuilder(numPlayers, agent)
+		builder.Seed = int64(g + 1) // each game gets a different random private auction
+		settings, impls := builder.Build()
+		layout := builder.Layout()
+
+		impls.TerminationCondition = &engine.OrTerminationCondition{
+			Conditions: []simulator.TerminationCondition{
+				&engine.BankBrokenTerminationCondition{
+					BankPartitionIndex: layout.BankPartition,
+				},
+				&simulator.NumberOfStepsTerminationCondition{
+					MaxNumberOfSteps: 5000,
+				},
+			},
+		}
+
+		coordinator := simulator.NewPartitionCoordinator(settings, impls)
+		coordinator.Run()
+
+		// Compute portfolio values for all players.
+		values := make([]float64, numPlayers)
+		for p := 0; p < numPlayers; p++ {
+			values[p] = PortfolioValue(
+				coordinator.Shared.StateHistories,
+				layout, p, builder.Market, numCompanies)
+		}
+
+		// Determine rank of MCTS player (0 = best).
+		mctsVal := values[mctsPlayer]
+		rank := 0
+		for p := 0; p < numPlayers; p++ {
+			if p != mctsPlayer && values[p] > mctsVal {
+				rank++
+			}
+		}
+		mctsTotalRank += rank
+		if rank == 0 {
+			mctsWins++
+		}
+
+		steps := coordinator.Shared.TimestepsHistory.CurrentStepNumber
+		t.Logf("game %d: steps=%d mcts=%.0f values=%v rank=%d",
+			g, steps, mctsVal, values, rank)
+	}
+
+	winRate := float64(mctsWins) / float64(numGames)
+	avgRank := float64(mctsTotalRank) / float64(numGames)
+	t.Logf("MCTS wins: %d/%d (%.0f%%), avg rank: %.2f",
+		mctsWins, numGames, winRate*100, avgRank)
+
+	// MCTS should win more than chance (25% for 4 players).
+	if winRate < 0.25 {
+		t.Errorf("MCTS win rate %.0f%% is not above chance (25%%)", winRate*100)
+	}
+}
+
 func TestEnumerateLegalMoves(t *testing.T) {
 	t.Run("sr_has_multiple_options", func(t *testing.T) {
 		builder := engine.NewGameBuilder(4, &HeuristicAgent{})

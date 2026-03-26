@@ -422,6 +422,33 @@ func (m *MCTSAgent) isOurTurn(ctx *engine.GameContext) bool {
 
 // --- Helpers ---
 
+// PortfolioValue computes a player's total portfolio value:
+// cash + sum(shares_held * market_price) for each company.
+func PortfolioValue(
+	stateHistories []*simulator.StateHistory,
+	layout *engine.PartitionLayout,
+	playerIndex int,
+	marketGrid *gamedata.MarketGrid,
+	numCompanies int,
+) float64 {
+	ps := stateHistories[layout.PlayerPartitions[playerIndex]].Values.RawRowView(0)
+	mkt := stateHistories[layout.MarketPartition].Values.RawRowView(0)
+	total := ps[engine.PlayerCash]
+	for c := 0; c < numCompanies; c++ {
+		shares := ps[engine.PlayerShareIdx(c)]
+		if shares <= 0 {
+			continue
+		}
+		row := int(mkt[engine.MarketRowIdx(c)])
+		col := int(mkt[engine.MarketColIdx(c)])
+		if row < 0 {
+			continue
+		}
+		total += shares * float64(marketGrid.Price(row, col))
+	}
+	return total
+}
+
 func snapshotState(ctx *engine.GameContext) [][]float64 {
 	snap := make([][]float64, len(ctx.StateHistories))
 	for i, sh := range ctx.StateHistories {

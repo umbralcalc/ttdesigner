@@ -2,6 +2,7 @@ package engine
 
 import (
 	"fmt"
+	"math/rand/v2"
 
 	"github.com/umbralcalc/stochadex/pkg/simulator"
 	"github.com/umbralcalc/18xxdesigner/pkg/gamedata"
@@ -14,6 +15,7 @@ type GameBuilder struct {
 	Agent      Agent
 	Market     *gamedata.MarketGrid
 	Hexes      []gamedata.HexDef
+	Seed       int64 // 0 = deterministic; non-zero = randomise private auction
 }
 
 // NewGameBuilder creates a builder with default 1889 configuration.
@@ -173,6 +175,7 @@ func (b *GameBuilder) Build() (*simulator.Settings, *simulator.Implementations) 
 	}
 
 	// --- Player partitions ---
+	playerInits := b.initPlayerStates()
 	for i := 0; i < b.NumPlayers; i++ {
 		gen.SetPartition(&simulator.PartitionConfig{
 			Name: playerPartName(i),
@@ -186,7 +189,7 @@ func (b *GameBuilder) Build() (*simulator.Settings, *simulator.Implementations) 
 				"turn_values":   {Upstream: PartTurn},
 				"bank_values":   {Upstream: PartBank},
 			},
-			InitStateValues:   InitPlayerState(b.Config, b.NumPlayers),
+			InitStateValues:   playerInits[i],
 			StateHistoryDepth: 1,
 		})
 	}
@@ -201,6 +204,35 @@ func (b *GameBuilder) Build() (*simulator.Settings, *simulator.Implementations) 
 	})
 
 	return gen.GenerateConfigs()
+}
+
+// initPlayerStates returns per-player init state vectors.
+// When Seed is 0, all players get identical starting cash.
+// When Seed is non-zero, privates are randomly distributed among players
+// at face value, creating asymmetric starting positions.
+func (b *GameBuilder) initPlayerStates() [][]float64 {
+	states := make([][]float64, b.NumPlayers)
+	for i := range states {
+		states[i] = InitPlayerState(b.Config, b.NumPlayers)
+	}
+
+	if b.Seed == 0 {
+		return states
+	}
+
+	rng := rand.New(rand.NewPCG(uint64(b.Seed), 0))
+	privates := b.Config.PrivatesForPlayerCount(b.NumPlayers)
+
+	// Shuffle assignment order.
+	perm := rng.Perm(len(privates))
+	for i, idx := range perm {
+		player := i % b.NumPlayers
+		priv := privates[idx]
+		states[player][PlayerCash] -= float64(priv.Value)
+		states[player][PlayerPrivateIdx(priv.ID)] = 1.0
+	}
+
+	return states
 }
 
 // BuildAndRun creates the full simulation and runs it to completion.
