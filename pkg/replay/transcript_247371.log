@@ -1,0 +1,1218 @@
+ -- Phase 2 (Operating Rounds: 1 | Train Limit: 4 | Available Tiles: Yellow) --
+[16:03] 0500Rayquaza bids ¥55 for Sumitomo Mines Railway
+[16:31] 0y4h1l2k0y6 bids ¥60 for Sumitomo Mines Railway
+[16:49] 0500Rayquaza buys Takamatsu E-Railroad for ¥20
+[17:04] 0y4h1l2k0y6 buys Mitsubishi Ferry for ¥30
+[17:16] 0500Rayquaza buys Ehime Railway for ¥40
+[17:16] Sumitomo Mines Railway goes up for auction
+[17:16] 0500Rayquaza passes on Sumitomo Mines Railway
+[17:16] 0y4h1l2k0y6 wins the auction for Sumitomo Mines Railway with a bid of ¥60
+[17:23] 0y4h1l2k0y6 passes bidding
+[17:24] 0500Rayquaza buys Dougo Railway for ¥60
+[17:24] 0y4h1l2k0y6 has priority deal
+[17:24] -- Stock Round 1 --
+[17:28] 0y4h1l2k0y6 pars TR at ¥65
+[17:28] 0y4h1l2k0y6 buys a 20% share of TR from the IPO for ¥130
+[17:28] 0y4h1l2k0y6 becomes the president of TR
+[00:59] 0500Rayquaza pars KO at ¥75
+[00:59] 0500Rayquaza buys a 20% share of KO from the IPO for ¥150
+[00:59] 0500Rayquaza becomes the president of KO
+[00:59] • Action(buy_shares) via Master Mode by: 0500Rayquaza
+[00:59] 0y4h1l2k0y6 buys a 10% share of TR from the IPO for ¥65
+[00:59] 0500Rayquaza buys a 10% share of KO from the IPO for ¥75
+[00:59] • Action(buy_shares) via Master Mode by: 0500Rayquaza
+[00:59] 0y4h1l2k0y6 buys a 10% share of TR from the IPO for ¥65
+[00:59] 0500Rayquaza buys a 10% share of KO from the IPO for ¥75
+[00:59] • Action(buy_shares) via Master Mode by: 0500Rayquaza
+[00:59] 0y4h1l2k0y6 buys a 10% share of TR from the IPO for ¥65
+[00:59] TR floats
+[00:59] TR receives ¥650
+[00:59] 0500Rayquaza has no valid actions and passes
+[00:59] 0y4h1l2k0y6 has no valid actions and passes
+[00:59] 0500Rayquaza has priority deal
+[00:59] -- Operating Round 1.1 (of 1) --
+[00:59] 0500Rayquaza collects ¥5 from Takamatsu E-Railroad
+[00:59] 0500Rayquaza collects ¥10 from Ehime Railway
+[00:59] 0500Rayquaza collects ¥15 from Dougo Railway
+[00:59] 0y4h1l2k0y6 collects ¥5 from Mitsubishi Ferry
+[00:59] 0y4h1l2k0y6 collects ¥15 from Sumitomo Mines Railway
+[00:59] TR places a token on F9
+[00:59] 0y4h1l2k0y6 operates TR
+[02:56] TR lays tile #58 with rotation 0 on G10 (Nangoku)
+[02:57] TR passes lay track
+[02:57] TR skips place a token
+[02:57] TR skips run routes
+[02:57] TR does not run
+[02:57] TR's share price moves left from ¥65 to ¥60
+[02:57] TR buys a 2 train for ¥80 from The Depot
+[02:57] TR buys a 2 train for ¥80 from The Depot
+[02:57] TR passes buy trains
+[02:57] TR skips buy companies
+[02:57] -- Stock Round 2 --
+[04:37] 0500Rayquaza passes
+[04:56] 0y4h1l2k0y6 passes
+[04:56] 0500Rayquaza has priority deal
+[04:56] -- Operating Round 2.1 (of 1) --
+[04:56] 0500Rayquaza collects ¥5 from Takamatsu E-Railroad
+[04:56] 0500Rayquaza collects ¥10 from Ehime Railway
+[04:56] 0500Rayquaza collects ¥15 from Dougo Railway
+[04:56] 0y4h1l2k0y6 collects ¥5 from Mitsubishi Ferry
+[04:56] 0y4h1l2k0y6 collects ¥15 from Sumitomo Mines Railway
+[04:56] 0y4h1l2k0y6 operates TR
+[04:57] TR lays tile #8 with rotation 5 on E8
+[04:58] TR passes lay track
+[04:58] TR skips place a token
+[04:58] TR runs a 2 train for ¥40: F9-G10
+[04:58] TR pays out ¥40 = ¥4 per share (¥20 to 0y4h1l2k0y6)
+[04:58] TR's share price moves right from ¥60 to ¥65
+[04:58] TR passes buy trains
+[04:58] TR skips buy companies
+[04:58] -- Stock Round 3 --
+[05:00] 0500Rayquaza passes
+[05:00] 0y4h1l2k0y6 buys a 10% share of TR from the IPO for ¥65
+[05:00] 0y4h1l2k0y6 declines to sell shares
+[05:00] 0500Rayquaza passes
+[05:01] 0y4h1l2k0y6 passes
+[05:01] 0500Rayquaza has priority deal
+[05:01] -- Operating Round 3.1 (of 1) --
+[05:01] 0500Rayquaza collects ¥5 from Takamatsu E-Railroad
+[05:01] 0500Rayquaza collects ¥10 from Ehime Railway
+[05:01] 0500Rayquaza collects ¥15 from Dougo Railway
+[05:01] 0y4h1l2k0y6 collects ¥5 from Mitsubishi Ferry
+[05:01] 0y4h1l2k0y6 collects ¥15 from Sumitomo Mines Railway
+[05:01] 0y4h1l2k0y6 operates TR
+[05:01] TR lays tile #9 with rotation 1 on D9
+[05:01] TR passes lay track
+[05:01] TR skips place a token
+[05:01] TR runs a 2 train for ¥40: F9-G10
+[05:01] TR pays out ¥40 = ¥4 per share (¥24 to 0y4h1l2k0y6)
+[05:01] TR's share price moves right from ¥65 to ¥70
+[05:01] TR passes buy trains
+[05:01] TR skips buy companies
+[05:01] -- Stock Round 4 --
+[05:01] 0500Rayquaza buys a 10% share of KO from the IPO for ¥75
+[05:01] KO floats
+[05:01] KO receives ¥750
+[05:01] 0500Rayquaza declines to sell shares
+[05:01] 0y4h1l2k0y6 passes
+[05:01] 0500Rayquaza passes
+[05:01] 0y4h1l2k0y6 has priority deal
+[05:01] -- Operating Round 4.1 (of 1) --
+[05:01] 0y4h1l2k0y6 collects ¥5 from Mitsubishi Ferry
+[05:01] 0y4h1l2k0y6 collects ¥15 from Sumitomo Mines Railway
+[05:01] 0500Rayquaza collects ¥5 from Takamatsu E-Railroad
+[05:01] 0500Rayquaza collects ¥10 from Ehime Railway
+[05:01] 0500Rayquaza collects ¥15 from Dougo Railway
+[05:01] KO places a token on K4
+[05:01] 0500Rayquaza operates KO
+[05:01] KO lays tile #8 with rotation 3 on J3
+[05:01] KO skips place a token
+[05:01] KO skips run routes
+[05:01] KO does not run
+[05:01] KO's share price moves left from ¥75 to ¥70
+[05:02] KO buys a 2 train for ¥80 from The Depot
+[05:02] KO buys a 2 train for ¥80 from The Depot
+[05:02] KO passes buy trains
+[05:02] KO skips buy companies
+[05:02] 0y4h1l2k0y6 operates TR
+[05:02] TR lays tile #57 with rotation 1 on C10 (Kubokawa)
+[05:02] TR passes lay track
+[05:02] TR skips place a token
+[05:02] TR runs a 2 train for ¥50: F9-C10
+[05:02] TR runs a 2 train for ¥40: F9-G10
+[05:02] TR pays out ¥90 = ¥9 per share (¥54 to 0y4h1l2k0y6)
+[05:02] TR's share price moves right from ¥70 to ¥75
+[05:02] TR passes buy trains
+[05:02] TR skips buy companies
+[05:02] -- Stock Round 5 --
+[05:02] 0y4h1l2k0y6 buys a 10% share of KO from the IPO for ¥75
+[05:02] 0y4h1l2k0y6 declines to sell shares
+[05:03] 0500Rayquaza passes
+[05:04] 0y4h1l2k0y6 passes
+[05:04] 0500Rayquaza has priority deal
+[05:04] -- Operating Round 5.1 (of 1) --
+[05:04] 0500Rayquaza collects ¥5 from Takamatsu E-Railroad
+[05:04] 0500Rayquaza collects ¥10 from Ehime Railway
+[05:04] 0500Rayquaza collects ¥15 from Dougo Railway
+[05:04] 0y4h1l2k0y6 collects ¥5 from Mitsubishi Ferry
+[05:04] 0y4h1l2k0y6 collects ¥15 from Sumitomo Mines Railway
+[05:04] 0y4h1l2k0y6 operates TR
+[05:04] TR lays tile #57 with rotation 0 on G12 (Nahari)
+[05:04] TR passes lay track
+[05:05] TR passes place a token
+[05:05] TR runs a 2 train for ¥50: F9-C10
+[05:05] TR runs a 2 train for ¥40: F9-G10
+[05:05] TR pays out ¥90 = ¥9 per share (¥54 to 0y4h1l2k0y6)
+[05:05] TR's share price moves right from ¥75 to ¥80
+[05:05] TR buys a 2 train for ¥80 from The Depot
+[05:05] TR passes buy trains
+[05:05] TR skips buy companies
+[05:05] 0500Rayquaza operates KO
+[05:09] KO lays tile #58 with rotation 2 on J5 (Ritsurin Kouen)
+[05:09] KO skips place a token
+[05:09] KO runs a 2 train for ¥50: K4-J1
+[05:09] KO runs a 2 train for ¥40: K4-J5
+[05:09] KO pays out ¥90 = ¥9 per share (¥45 to 0500Rayquaza, ¥9 to 0y4h1l2k0y6)
+[05:09] KO's share price moves right from ¥70 to ¥75
+[05:09] KO passes buy trains
+[05:09] KO skips buy companies
+[05:09] -- Stock Round 6 --
+[05:10] 0500Rayquaza buys a 10% share of KO from the IPO for ¥75
+[05:10] 0500Rayquaza declines to sell shares
+[05:10] 0y4h1l2k0y6 buys a 10% share of KO from the IPO for ¥75
+[05:10] 0y4h1l2k0y6 declines to sell shares
+[05:10] 0500Rayquaza passes
+[05:10] 0y4h1l2k0y6 passes
+[05:10] 0500Rayquaza has priority deal
+[05:10] -- Operating Round 6.1 (of 1) --
+[05:10] 0500Rayquaza collects ¥5 from Takamatsu E-Railroad
+[05:10] 0500Rayquaza collects ¥10 from Ehime Railway
+[05:10] 0500Rayquaza collects ¥15 from Dougo Railway
+[05:10] 0y4h1l2k0y6 collects ¥5 from Mitsubishi Ferry
+[05:10] 0y4h1l2k0y6 collects ¥15 from Sumitomo Mines Railway
+[05:10] 0y4h1l2k0y6 operates TR
+[05:10] TR spends ¥80 and lays tile #9 with rotation 1 on H13
+[05:11] TR (MF) lays tile #437 with rotation 1 on I12 (Muki)
+[05:11] TR places a token on G12 (Nahari)  for ¥40
+[05:11] TR runs a 2 train for ¥50: F9-C10
+[05:11] TR runs a 2 train for ¥40: G12-G14
+[05:11] TR runs a 2 train for ¥40: F9-G10
+[05:11] TR pays out ¥130 = ¥13 per share (¥78 to 0y4h1l2k0y6)
+[05:11] TR's share price moves up from ¥80 to ¥90
+[05:11] TR passes buy trains
+[05:11] TR skips buy companies
+[05:11] 0500Rayquaza operates KO
+[05:11] KO spends ¥80 and lays tile #8 with rotation 3 on K6
+[05:11] KO skips place a token
+[05:11] KO runs a 2 train for ¥50: K4-J1
+[05:11] KO runs a 2 train for ¥50: K4-L7
+[05:12] KO pays out ¥100 = ¥10 per share (¥60 to 0500Rayquaza, ¥20 to 0y4h1l2k0y6)
+[05:12] KO's share price moves right from ¥75 to ¥80
+[05:12] KO buys a 2 train for ¥80 from The Depot
+[05:12] KO buys a 3 train for ¥180 from The Depot
+[05:12] -- Phase 3 (Operating Rounds: 2 | Train Limit: 4 | Available Tiles: Yellow, Green) --
+[05:12] KO buys Dougo Railway from 0500Rayquaza for ¥120
+[05:12] KO buys Ehime Railway from 0500Rayquaza for ¥80
+[05:12] 0500Rayquaza (ER) lays tile #206 with rotation 5 on C4 (Ohzu)
+[05:12] KO passes buy companies
+[05:12] -- Stock Round 7 --
+[05:13] 0500Rayquaza pars SR at ¥65
+[05:13] 0500Rayquaza buys a 20% share of SR from the IPO for ¥130
+[05:13] 0500Rayquaza becomes the president of SR
+[05:13] 0500Rayquaza declines to sell shares
+[05:15] 0y4h1l2k0y6 buys a 10% share of KO from the IPO for ¥75
+[05:15] 0y4h1l2k0y6 declines to sell shares
+[05:15] 0500Rayquaza buys a 10% share of SR from the IPO for ¥65
+[05:15] 0500Rayquaza declines to sell shares
+[05:15] 0y4h1l2k0y6 buys a 10% share of KO from the IPO for ¥75
+[05:15] 0y4h1l2k0y6 declines to sell shares
+[05:15] 0500Rayquaza buys a 10% share of SR from the IPO for ¥65
+[05:15] 0500Rayquaza declines to sell shares
+[05:15] 0y4h1l2k0y6 passes
+[05:15] 0500Rayquaza buys a 10% share of SR from the IPO for ¥65
+[05:15] SR floats
+[05:15] SR receives ¥650
+[05:16] 0500Rayquaza declines to sell shares
+[05:16] 0y4h1l2k0y6 passes
+[05:16] 0500Rayquaza passes
+[05:16] KO's share price moves up from ¥80 to ¥90
+[05:16] 0y4h1l2k0y6 has priority deal
+[05:16] -- Operating Round 7.1 (of 2) --
+[05:16] 0y4h1l2k0y6 collects ¥5 from Mitsubishi Ferry
+[05:16] 0y4h1l2k0y6 collects ¥15 from Sumitomo Mines Railway
+[05:16] 0500Rayquaza collects ¥5 from Takamatsu E-Railroad
+[05:16] KO collects ¥10 from Ehime Railway
+[05:16] KO collects ¥15 from Dougo Railway
+[05:16] SR places a token on I2
+[05:16] 0y4h1l2k0y6 operates TR
+[05:16] TR lays tile #7 with rotation 5 on I10
+[05:16] TR skips place a token
+[05:17] TR runs a 2 train for ¥50: F9-C10
+[05:17] TR runs a 2 train for ¥40: G12-G14
+[05:17] TR runs a 2 train for ¥40: F9-G10
+[05:17] TR pays out ¥130 = ¥13 per share (¥78 to 0y4h1l2k0y6)
+[05:17] TR's share price moves right from ¥90 to ¥100
+[05:17] TR buys a 3 train for ¥180 from The Depot
+[05:17] TR buys Sumitomo Mines Railway from 0y4h1l2k0y6 for ¥100
+[05:17] TR passes buy companies
+[05:17] 0500Rayquaza operates KO
+[05:18] KO lays tile #24 with rotation 3 on K6
+[05:18] KO skips place a token
+[05:18] KO runs a 3 train for ¥50: K4-J1
+[05:18] KO runs a 2 train for ¥50: K4-L7
+[05:18] KO runs a 2 train for ¥40: K4-J5
+[05:18] KO withholds ¥140
+[05:18] KO's share price moves left from ¥90 to ¥80
+[05:18] KO skips buy trains
+[05:18] KO passes buy companies
+[05:18] 0500Rayquaza operates SR
+[05:18] SR lays tile #6 with rotation 4 on I2 (Marugame)
+[05:18] SR skips place a token
+[05:18] SR skips run routes
+[05:18] SR does not run
+[05:18] SR's share price moves left from ¥65 to ¥60
+[05:18] SR buys a 3 train for ¥180 from The Depot
+[05:18] SR buys a 3 train for ¥180 from The Depot
+[05:18] SR passes buy trains
+[05:18] SR buys Takamatsu E-Railroad from 0500Rayquaza for ¥40
+[05:18] SR passes buy companies
+[05:18] -- Operating Round 7.2 (of 2) --
+[05:18] 0y4h1l2k0y6 collects ¥5 from Mitsubishi Ferry
+[05:18] TR collects ¥15 from Sumitomo Mines Railway
+[05:18] KO collects ¥10 from Ehime Railway
+[05:18] KO collects ¥15 from Dougo Railway
+[05:18] SR collects ¥5 from Takamatsu E-Railroad
+[05:18] 0y4h1l2k0y6 operates TR
+[05:22] TR lays tile #5 with rotation 2 on J11 (Anan)
+[05:22] TR skips place a token
+[05:23] TR runs a 3 train for ¥70: G12-G14-I12
+[05:23] TR runs a 2 train for ¥50: F9-C10
+[05:23] TR runs a 2 train for ¥40: F9-G10
+[05:23] TR runs a 2 train for ¥30: G12-G10
+[05:23] TR pays out ¥190 = ¥19 per share (¥114 to 0y4h1l2k0y6)
+[05:23] TR's share price moves up from ¥100 to ¥110
+[05:23] TR skips buy trains
+[05:23] TR passes buy companies
+[05:23] 0500Rayquaza operates KO
+[05:23] KO spends ¥80 and lays tile #438 with rotation 3 on I4 (Kotohira)
+[05:24] KO passes place a token
+[05:24] KO runs a 3 train for ¥80: K4-J5-I4
+[05:24] KO runs a 2 train for ¥50: K4-J1
+[05:24] KO runs a 2 train for ¥50: K4-L7
+[05:24] KO pays out ¥180 = ¥18 per share (¥108 to 0500Rayquaza, ¥72 to 0y4h1l2k0y6)
+[05:24] KO's share price moves right from ¥80 to ¥90
+[05:24] KO skips buy trains
+[05:24] KO passes buy companies
+[05:24] 0500Rayquaza operates SR
+[05:24] SR lays tile #15 with rotation 4 on I2 (Marugame)
+[05:24] SR passes place a token
+[05:24] SR runs a 3 train for ¥80: I2-I4-J5
+[05:24] SR runs a 3 train for ¥50: I2-J1
+[05:24] SR pays out ¥130 = ¥13 per share (¥65 to 0500Rayquaza)
+[05:24] SR's share price moves right from ¥60 to ¥65
+[05:24] SR passes buy trains
+[05:24] SR passes buy companies
+[05:24] -- Stock Round 8 --
+[05:26] 0y4h1l2k0y6 pars AR at ¥80
+[05:26] 0y4h1l2k0y6 buys a 20% share of AR from the IPO for ¥160
+[05:26] 0y4h1l2k0y6 becomes the president of AR
+[05:26] 0y4h1l2k0y6 declines to sell shares
+[05:28] 0500Rayquaza buys a 10% share of TR from the IPO for ¥65
+[05:28] 0500Rayquaza declines to sell shares
+[05:28] 0y4h1l2k0y6 buys a 10% share of AR from the IPO for ¥80
+[05:28] 0y4h1l2k0y6 declines to sell shares
+[05:28] 0500Rayquaza pars UR at ¥70
+[05:28] 0500Rayquaza buys a 20% share of UR from the IPO for ¥140
+[05:28] 0500Rayquaza becomes the president of UR
+[05:28] 0500Rayquaza declines to sell shares
+[05:29] 0y4h1l2k0y6 buys a 10% share of AR from the IPO for ¥80
+[05:29] 0y4h1l2k0y6 declines to sell shares
+[05:29] 0500Rayquaza passes
+[05:29] 0y4h1l2k0y6 buys a 10% share of AR from the IPO for ¥80
+[05:29] AR floats
+[05:29] AR receives ¥800
+[05:29] 0y4h1l2k0y6 declines to sell shares
+[05:29] 0500Rayquaza passes
+[05:29] 0y4h1l2k0y6 passes
+[05:29] KO's share price moves up from ¥90 to ¥100
+[05:29] 0500Rayquaza has priority deal
+[05:29] -- Operating Round 8.1 (of 2) --
+[05:29] 0y4h1l2k0y6 collects ¥5 from Mitsubishi Ferry
+[05:29] TR collects ¥15 from Sumitomo Mines Railway
+[05:29] KO collects ¥10 from Ehime Railway
+[05:29] KO collects ¥15 from Dougo Railway
+[05:29] SR collects ¥5 from Takamatsu E-Railroad
+[05:29] AR places a token on K8
+[05:29] 0y4h1l2k0y6 operates TR
+[05:29] TR lays tile #58 with rotation 4 on J9 (Komatsujima)
+[05:30] TR passes place a token
+[05:30] TR runs a 3 train for ¥70: G12-G14-I12
+[05:30] TR runs a 2 train for ¥50: F9-C10
+[05:30] TR runs a 2 train for ¥40: F9-G10
+[05:30] TR runs a 2 train for ¥30: G12-G10
+[05:30] TR pays out ¥190 = ¥19 per share (¥114 to 0y4h1l2k0y6, ¥19 to 0500Rayquaza)
+[05:30] TR's share price moves right from ¥110 to ¥125
+[05:30] TR skips buy trains
+[05:30] TR passes buy companies
+[05:30] 0500Rayquaza operates KO
+[05:30] KO lays tile #23 with rotation 5 on J3
+[05:30] KO passes place a token
+[05:30] KO runs a 3 train for ¥100: K4-I2-I4
+[05:30] KO runs a 2 train for ¥50: K4-L7
+[05:30] KO runs a 2 train for ¥40: K4-J5
+[05:31] KO withholds ¥190
+[05:31] KO's share price moves left from ¥100 to ¥90
+[05:31] KO skips buy trains
+[05:31] KO passes buy companies
+[05:31] 0y4h1l2k0y6 operates AR
+[05:31] AR lays tile #6 with rotation 1 on K8 (Tokushima)
+[05:32] AR passes place a token
+[05:32] AR skips run routes
+[05:32] AR does not run
+[05:32] AR's share price moves left from ¥80 to ¥75
+[05:32] AR buys a 3 train for ¥180 from The Depot
+[05:33] AR buys a 2 train for ¥380 from TR
+[05:33] AR passes buy trains
+[05:33] AR buys Mitsubishi Ferry from 0y4h1l2k0y6 for ¥60
+[05:33] AR skips buy companies
+[05:33] 0500Rayquaza operates SR
+[05:33] SR lays tile #440 with rotation 0 on K4 (Takamatsu)
+[05:34] SR passes place a token
+[05:34] SR runs a 3 train for ¥90: J1-I2-I4
+[05:34] SR runs a 3 train for ¥90: I2-K4-L7
+[05:34] SR pays out ¥180 = ¥18 per share (¥90 to 0500Rayquaza)
+[05:34] SR's share price moves right from ¥65 to ¥70
+[05:34] SR passes buy trains
+[05:34] SR skips buy companies
+[05:34] -- Operating Round 8.2 (of 2) --
+[05:34] TR collects ¥15 from Sumitomo Mines Railway
+[05:34] KO collects ¥10 from Ehime Railway
+[05:34] KO collects ¥15 from Dougo Railway
+[05:34] AR collects ¥5 from Mitsubishi Ferry
+[05:34] SR collects ¥5 from Takamatsu E-Railroad
+[05:34] 0y4h1l2k0y6 operates TR
+[05:34] TR lays tile #3 with rotation 3 on B11 (Nakamura)
+[05:34] TR passes place a token
+[05:34] TR runs a 3 train for ¥70: G12-G14-I12
+[05:34] TR runs a 2 train for ¥50: F9-C10
+[05:34] TR runs a 2 train for ¥40: F9-G10
+[05:35] TR pays out ¥160 = ¥16 per share (¥96 to 0y4h1l2k0y6, ¥16 to 0500Rayquaza)
+[05:35] TR's share price moves right from ¥125 to ¥140
+[05:35] TR buys a 4 train for ¥300 from The Depot
+[05:35] -- Phase 4 (Operating Rounds: 2 | Train Limit: 3 | Available Tiles: Yellow, Green) --
+[05:35] -- Event: 2 trains rust (AR x1, TR x2, KO x3) --
+[05:35] TR passes buy trains
+[05:35] TR skips buy companies
+[05:35] 0500Rayquaza operates KO
+[05:35] KO lays tile #15 with rotation 1 on K8 (Tokushima)
+[05:35] KO passes place a token
+[05:35] KO runs a 3 train for ¥110: K4-I2-I4
+[05:35] KO pays out ¥110 = ¥11 per share (¥66 to 0500Rayquaza, ¥44 to 0y4h1l2k0y6)
+[05:35] KO's share price moves right from ¥90 to ¥100
+[05:35] KO buys a 4 train for ¥300 from The Depot
+[05:35] KO passes buy trains
+[05:35] KO skips buy companies
+[05:35] 0y4h1l2k0y6 operates AR
+[05:36] AR lays tile #8 with rotation 2 on I8
+[05:36] AR passes place a token
+[05:36] AR runs a 3 train for ¥100: K8-K4-I2
+[05:37] AR pays out ¥100 = ¥10 per share (¥50 to 0y4h1l2k0y6)
+[05:37] AR's share price moves right from ¥75 to ¥80
+[05:37] AR passes buy trains
+[05:37] AR skips buy companies
+[05:37] 0500Rayquaza operates SR
+[05:37] SR lays tile #12 with rotation 1 on J11 (Anan)
+[05:37] SR places a token on J11 (Anan)  for ¥40
+[05:37] SR runs a 3 train for ¥110: K4-I2-I4
+[05:37] SR runs a 3 train for ¥80: J11-I12-G14
+[05:38] SR withholds ¥190
+[05:38] SR's share price moves left from ¥70 to ¥65
+[05:38] SR buys a 4 train for ¥300 from The Depot
+[05:38] SR skips buy companies
+[05:38] -- Stock Round 9 --
+[05:38] 0500Rayquaza buys a 10% share of SR from the IPO for ¥65
+[05:38] 0500Rayquaza declines to sell shares
+[05:38] 0y4h1l2k0y6 pars KU at ¥75
+[05:38] 0y4h1l2k0y6 buys a 20% share of KU from the IPO for ¥150
+[05:38] 0y4h1l2k0y6 becomes the president of KU
+[05:39] 0y4h1l2k0y6 declines to sell shares
+[05:39] 0500Rayquaza buys a 10% share of UR from the IPO for ¥70
+[05:39] 0500Rayquaza sells a 10% share of TR and receives ¥140
+[05:39] 0y4h1l2k0y6 buys a 10% share of KU from the IPO for ¥75
+[05:39] 0y4h1l2k0y6 declines to sell shares
+[05:39] 0500Rayquaza buys a 10% share of UR from the IPO for ¥70
+[05:39] 0500Rayquaza declines to sell shares
+[05:39] 0y4h1l2k0y6 buys a 10% share of KU from the IPO for ¥75
+[05:39] 0y4h1l2k0y6 declines to sell shares
+[05:40] 0500Rayquaza buys a 10% share of UR from the IPO for ¥70
+[05:40] UR floats
+[05:40] UR receives ¥700
+[05:40] 0500Rayquaza declines to sell shares
+[05:40] 0y4h1l2k0y6 buys a 10% share of KU from the IPO for ¥75
+[05:40] KU floats
+[05:40] KU receives ¥750
+[05:40] 0y4h1l2k0y6 declines to sell shares
+[05:40] 0500Rayquaza passes
+[05:40] 0y4h1l2k0y6 passes
+[05:40] KO's share price moves up from ¥100 to ¥110
+[05:40] 0500Rayquaza has priority deal
+[05:40] -- Operating Round 9.1 (of 2) --
+[05:40] TR collects ¥15 from Sumitomo Mines Railway
+[05:40] KO collects ¥10 from Ehime Railway
+[05:40] KO collects ¥15 from Dougo Railway
+[05:40] AR collects ¥5 from Mitsubishi Ferry
+[05:40] SR collects ¥5 from Takamatsu E-Railroad
+[05:40] KU places a token on C10
+[05:40] UR places a token on B7
+[05:40] 0y4h1l2k0y6 operates TR
+[05:40] TR receives a discount of ¥80 from Sumitomo Mines Railway
+[05:40] TR lays tile #9 with rotation 1 on G8
+[05:40] TR skips place a token
+[05:40] TR runs a 4 train for ¥100: G12-G14-I12-J11
+[05:40] TR runs a 3 train for ¥60: C10-F9-G10
+[05:41] TR pays out ¥160 = ¥16 per share (¥96 to 0y4h1l2k0y6, ¥16 to TR)
+[05:41] TR's share price moves up from ¥140 to ¥155
+[05:41] TR passes buy trains
+[05:41] TR skips buy companies
+[05:41] 0500Rayquaza operates KO
+[05:41] KO lays tile #6 with rotation 5 on H7 (Ikeda)
+[05:41] KO places a token on F9 (Kouchi)  for ¥40
+[05:41] KO runs a 4 train for ¥140: I4-I2-K4-K8
+[05:41] KO runs a 3 train for ¥90: K4-J5-I4
+[05:41] KO withholds ¥230
+[05:41] KO's share price moves left from ¥110 to ¥100
+[05:41] KO buys a 4 train for ¥315 from SR
+[05:41] KO skips buy companies
+[05:41] 0y4h1l2k0y6 operates AR
+[05:43] AR spends ¥80 and lays tile #439 with rotation 1 on I4 (Kotohira)
+[05:43] AR places a token on I4 (Kotohira)  for ¥40
+[05:43] AR runs a 3 train for ¥130: I4-I2-K4
+[05:43] AR pays out ¥130 = ¥13 per share (¥65 to 0y4h1l2k0y6)
+[05:43] AR's share price moves right from ¥80 to ¥90
+[05:43] AR passes buy trains
+[05:43] AR skips buy companies
+[05:43] 0y4h1l2k0y6 operates KU
+[05:45] KU spends ¥80 and lays tile #7 with rotation 0 on B9
+[05:45] KU skips place a token
+[05:45] KU skips run routes
+[05:45] KU does not run
+[05:45] KU's share price moves left from ¥75 to ¥70
+[05:45] KU buys a 4 train for ¥300 from The Depot
+[05:45] KU buys a 3 train for ¥10 from TR
+[05:45] KU passes buy trains
+[05:45] KU skips buy companies
+[05:45] 0500Rayquaza operates UR
+[05:46] UR lays tile #9 with rotation 2 on C8
+[05:46] UR skips place a token
+[05:46] UR skips run routes
+[05:46] UR does not run
+[05:46] UR's share price moves left from ¥70 to ¥65
+[05:46] UR buys a 3 train for ¥500 from SR
+[05:46] UR passes buy trains
+[05:46] UR skips buy companies
+[05:46] 0500Rayquaza operates SR
+[05:46] SR lays tile #9 with rotation 1 on H3
+[05:46] SR skips place a token
+[05:46] SR runs a 3 train for ¥130: I4-I2-K4
+[05:46] SR pays out ¥130 = ¥13 per share (¥78 to 0500Rayquaza)
+[05:46] SR's share price moves right from ¥65 to ¥70
+[05:46] SR buys a 5 train for ¥450 from The Depot
+[05:46] -- Phase 5 (Operating Rounds: 3 | Train Limit: 2 | Available Tiles: Yellow, Green, Brown) --
+[05:46] -- Event: Private companies close --
+[05:46] KO discards 3
+[05:46] SR skips buy companies
+[05:46] -- Operating Round 9.2 (of 2) --
+[05:46] 0y4h1l2k0y6 operates TR
+[05:47] TR spends ¥80 and lays tile #465 with rotation 2 on F9 (Kouchi)
+[05:47] TR passes place a token
+[05:47] TR runs a 4 train for ¥150: F9-H7-K8-L7
+[05:49] TR withholds ¥150
+[05:49] TR's share price moves left from ¥155 to ¥140
+[05:49] TR buys a 3 train for ¥180 from The Discard
+[05:49] TR skips buy companies
+[05:49] 0500Rayquaza operates KO
+[05:49] KO lays tile #448 with rotation 4 on I2 (Marugame)
+[05:49] KO skips place a token
+[05:49] KO runs a 4 train for ¥180: L7-K4-I2-I4
+[05:49] KO runs a 4 train for ¥150: F9-H7-K8-L7
+[05:49] KO withholds ¥330
+[05:49] KO's share price moves left from ¥100 to ¥90
+[05:49] KO skips buy trains
+[05:49] KO skips buy companies
+[05:49] 0y4h1l2k0y6 operates AR
+[05:51] AR lays tile #23 with rotation 4 on D9
+[05:51] AR skips place a token
+[05:52] AR runs a 3 train for ¥140: I4-I2-K4
+[05:52] AR pays out ¥140 = ¥14 per share (¥70 to 0y4h1l2k0y6)
+[05:52] AR's share price moves right from ¥90 to ¥100
+[05:52] AR buys a 3 train for ¥1 from KU
+[05:52] AR skips buy companies
+[05:52] 0500Rayquaza operates SR
+[05:53] SR lays tile #6 with rotation 2 on G4 (Niihama)
+[05:53] SR skips place a token
+[05:53] SR runs a 5 train for ¥190: I2-K4-K8-H7-F9
+[05:53] SR runs a 3 train for ¥140: J1-I2-I4
+[05:53] SR pays out ¥330 = ¥33 per share (¥198 to 0500Rayquaza)
+[05:53] SR's share price moves right from ¥70 to ¥75
+[05:53] SR skips buy trains
+[05:53] SR skips buy companies
+[05:53] 0y4h1l2k0y6 operates KU
+[05:54] KU lays tile #5 with rotation 3 on A10 (Sukumo)
+[05:54] KU skips place a token
+[05:54] KU runs a 4 train for ¥130: C10-F9-H7-K8
+[05:54] KU withholds ¥130
+[05:54] KU's share price moves left from ¥70 to ¥65
+[05:54] KU buys a 5 train for ¥450 from The Depot
+[05:54] KU skips buy companies
+[05:54] 0500Rayquaza operates UR
+[05:57] UR lays tile #13 with rotation 1 on H7 (Ikeda)
+[05:57] UR places a token on H7 (Ikeda)  for ¥40
+[05:57] UR runs a 3 train for ¥130: B7-F9-H7
+[05:57] UR pays out ¥130 = ¥13 per share (¥65 to 0500Rayquaza)
+[05:57] UR's share price moves right from ¥65 to ¥70
+[05:57] UR passes buy trains
+[05:57] UR skips buy companies
+[05:57] -- Stock Round 10 --
+[05:57] 0500Rayquaza pars IR at ¥80
+[05:57] 0500Rayquaza buys a 20% share of IR from the IPO for ¥160
+[05:57] 0500Rayquaza becomes the president of IR
+[05:57] 0500Rayquaza declines to sell shares
+[05:58] 0y4h1l2k0y6 buys a 10% share of AR from the IPO for ¥80
+[05:58] 0y4h1l2k0y6 declines to sell shares
+[05:58] 0500Rayquaza buys a 10% share of IR from the IPO for ¥80
+[05:58] 0500Rayquaza declines to sell shares
+[05:58] 0y4h1l2k0y6 buys a 10% share of KU from the IPO for ¥75
+[05:58] 0y4h1l2k0y6 declines to sell shares
+[05:58] 0500Rayquaza buys a 10% share of IR from the IPO for ¥80
+[05:58] 0500Rayquaza declines to sell shares
+[05:58] 0y4h1l2k0y6 buys a 10% share of SR from the IPO for ¥65
+[05:58] 0y4h1l2k0y6 declines to sell shares
+[05:58] 0500Rayquaza buys a 10% share of IR from the IPO for ¥80
+[05:58] IR floats
+[05:58] IR receives ¥800
+[05:59] 0500Rayquaza declines to sell shares
+[06:00] 0y4h1l2k0y6 sells 2 shares of TR and receives ¥280
+[06:00] TR's share price moves down from ¥140 to ¥125
+[06:00] 0y4h1l2k0y6 buys a 10% share of SR from the IPO for ¥65
+[06:00] 0500Rayquaza passes
+[06:00] 0y4h1l2k0y6 buys a 10% share of SR from the IPO for ¥65
+[06:01] 0y4h1l2k0y6 declines to sell shares
+[06:02] 0500Rayquaza passes
+[06:02] 0y4h1l2k0y6 buys a 10% share of SR from the IPO for ¥65
+[06:02] 0y4h1l2k0y6 declines to sell shares
+[06:02] 0500Rayquaza passes
+[06:02] 0y4h1l2k0y6 buys a 10% share of UR from the IPO for ¥70
+[06:02] 0y4h1l2k0y6 declines to sell shares
+[06:02] 0500Rayquaza passes
+[06:02] 0y4h1l2k0y6 passes
+[06:02] SR's share price moves up from ¥75 to ¥80
+[06:02] 0500Rayquaza has priority deal
+[06:02] -- Operating Round 10.1 (of 3) --
+[06:02] IR places a token on E2
+[06:02] 0y4h1l2k0y6 operates TR
+[06:03] TR lays tile #611 with rotation 1 on H7 (Ikeda)
+[06:04] TR passes place a token
+[06:04] TR runs a 4 train for ¥170: F9-H7-K8-L7
+[06:04] TR runs a 3 train for ¥110: B7-F9-G10
+[06:04] TR pays out ¥280 = ¥28 per share (¥112 to 0y4h1l2k0y6, ¥84 to TR)
+[06:04] TR's share price moves right from ¥125 to ¥140
+[06:04] TR skips buy trains
+[06:04] TR skips buy companies
+[06:04] 0y4h1l2k0y6 operates AR
+[06:04] AR lays tile #6 with rotation 3 on F3 (Saijou)
+[06:04] AR skips place a token
+[06:04] AR runs a 3 train for ¥140: I4-I2-K4
+[06:04] AR runs a 3 train for ¥130: K8-H7-F9
+[06:04] AR pays out ¥270 = ¥27 per share (¥162 to 0y4h1l2k0y6)
+[06:04] AR's share price moves right from ¥100 to ¥110
+[06:04] AR skips buy trains
+[06:04] AR skips buy companies
+[06:04] 0500Rayquaza operates KO
+[06:05] KO lays tile #14 with rotation 2 on F3 (Saijou)
+[06:05] KO skips place a token
+[06:05] KO runs a 4 train for ¥180: L7-K4-I2-I4
+[06:05] KO runs a 4 train for ¥170: B7-F9-H7-K8
+[06:05] KO pays out ¥350 = ¥35 per share (¥210 to 0500Rayquaza, ¥140 to 0y4h1l2k0y6)
+[06:05] KO's share price moves right from ¥90 to ¥100
+[06:05] KO skips buy trains
+[06:05] KO skips buy companies
+[06:05] 0500Rayquaza operates SR
+[06:05] SR lays tile #5 with rotation 4 on E2 (Matsuyama)
+[06:05] SR skips place a token
+[06:05] SR runs a 5 train for ¥210: I2-K4-K8-H7-F9
+[06:05] SR runs a 3 train for ¥140: J1-I2-I4
+[06:06] SR pays out ¥350 = ¥35 per share (¥210 to 0500Rayquaza, ¥140 to 0y4h1l2k0y6)
+[06:06] SR's share price moves right from ¥80 to ¥90
+[06:06] SR skips buy trains
+[06:06] SR skips buy companies
+[06:06] 0500Rayquaza operates IR
+[06:06] IR lays tile #15 with rotation 4 on E2 (Matsuyama)
+[06:06] IR places a token on H7 (Ikeda)  for ¥40
+[06:06] IR skips run routes
+[06:06] IR does not run
+[06:06] IR's share price moves left from ¥80 to ¥75
+[06:08] IR buys a 3 train for ¥10 from SR
+[06:08] IR passes buy trains
+[06:08] IR skips buy companies
+[06:08] 0500Rayquaza operates UR
+[06:08] UR lays tile #15 with rotation 3 on G12 (Nahari)
+[06:08] UR passes place a token
+[06:08] UR runs a 3 train for ¥140: H7-F9-B7
+[06:08] UR pays out ¥140 = ¥14 per share (¥70 to 0500Rayquaza, ¥14 to 0y4h1l2k0y6)
+[06:08] UR's share price moves right from ¥70 to ¥75
+[06:08] UR buys a 4 train for ¥80 from KO
+[06:08] UR skips buy companies
+[06:08] 0y4h1l2k0y6 operates KU
+[06:10] KU lays tile #24 with rotation 1 on G8
+[06:10] KU skips place a token
+[06:10] KU runs a 5 train for ¥140: C10-F9-G10-G12-G14
+[06:10] KU runs a 4 train for ¥50: C10-B11-A10
+[06:10] KU pays out ¥190 = ¥19 per share (¥114 to 0y4h1l2k0y6)
+[06:10] KU's share price moves right from ¥65 to ¥70
+[06:10] KU skips buy trains
+[06:10] KU skips buy companies
+[06:10] -- Operating Round 10.2 (of 3) --
+[06:10] 0y4h1l2k0y6 operates TR
+[06:10] TR spends ¥80 and lays tile #9 with rotation 0 on G6
+[06:10] TR passes place a token
+[06:11] TR runs a 4 train for ¥120: F9-G10-G12-G14
+[06:11] TR runs a 3 train for ¥140: B7-F9-H7
+[06:11] TR pays out ¥260 = ¥26 per share (¥104 to 0y4h1l2k0y6, ¥78 to TR)
+[06:11] TR's share price moves up from ¥140 to ¥155
+[06:11] TR skips buy trains
+[06:11] TR skips buy companies
+[06:11] 0y4h1l2k0y6 operates AR
+[06:11] AR lays tile #13 with rotation 0 on G4 (Niihama)
+[06:11] AR skips place a token
+[06:11] AR runs a 3 train for ¥140: I4-I2-K4
+[06:11] AR runs a 3 train for ¥110: H7-K8-K4
+[06:11] AR pays out ¥250 = ¥25 per share (¥150 to 0y4h1l2k0y6)
+[06:11] AR's share price moves right from ¥110 to ¥125
+[06:11] AR skips buy trains
+[06:11] AR skips buy companies
+[06:11] 0500Rayquaza operates KO
+[06:11] KO lays tile #9 with rotation 0 on B5
+[06:11] KO skips place a token
+[06:12] KO runs a 4 train for ¥190: F9-G4-I2-I4
+[06:12] KO withholds ¥190
+[06:12] KO's share price moves left from ¥100 to ¥90
+[06:12] KO buys a 5 train for ¥450 from The Depot
+[06:12] KO skips buy companies
+[06:12] 0500Rayquaza operates SR
+[06:12] SR lays tile #448 with rotation 4 on E2 (Matsuyama)
+[06:12] SR skips place a token
+[06:12] SR runs a 5 train for ¥230: I4-I2-G4-F9-B7
+[06:13] SR withholds ¥230
+[06:13] SR's share price moves left from ¥90 to ¥80
+[06:13] SR buys a 6 train for ¥630 from The Depot
+[06:13] -- Phase 6 (Operating Rounds: 3 | Train Limit: 2 | Available Tiles: Yellow, Green, Brown) --
+[06:13] -- Event: 3 trains rust (TR x1, AR x2, UR x1, IR x1) --
+[06:13] SR skips buy companies
+[06:13] 0500Rayquaza operates UR
+[06:14] UR lays tile #611 with rotation 5 on F3 (Saijou)
+[06:14] UR passes place a token
+[06:14] UR runs a 4 train for ¥170: F9-H7-K8-K4
+[06:14] UR pays out ¥170 = ¥17 per share (¥85 to 0500Rayquaza, ¥17 to 0y4h1l2k0y6)
+[06:14] UR's share price moves right from ¥75 to ¥80
+[06:14] UR passes buy trains
+[06:14] UR skips buy companies
+[06:14] 0500Rayquaza operates IR
+[06:16] IR lays tile #19 with rotation 3 on G6
+[06:16] IR skips place a token
+[06:16] IR skips run routes
+[06:16] IR does not run
+[06:16] IR's share price moves left from ¥75 to ¥70
+[06:16] IR buys a 6 train for ¥630 from The Depot
+[06:16] IR passes buy trains
+[06:16] IR skips buy companies
+[06:16] 0y4h1l2k0y6 operates KU
+[06:17] KU lays tile #448 with rotation 3 on G12 (Nahari)
+[06:17] KU skips place a token
+[06:17] KU runs a 5 train for ¥210: C10-F9-G4-I2-I4
+[06:17] KU runs a 4 train for ¥50: C10-B11-A10
+[06:18] KU pays out ¥260 = ¥26 per share (¥156 to 0y4h1l2k0y6)
+[06:18] KU's share price moves right from ¥70 to ¥75
+[06:18] KU skips buy trains
+[06:18] KU skips buy companies
+[06:18] -- Operating Round 10.3 (of 3) --
+[06:18] 0y4h1l2k0y6 operates TR
+[06:18] TR lays tile #9 with rotation 1 on D3
+[06:18] TR places a token on F3 (Saijou)  for ¥40
+[06:18] TR runs a 4 train for ¥190: F9-G4-I2-I4
+[06:19] TR withholds ¥190
+[06:19] TR's share price moves left from ¥155 to ¥140
+[06:19] TR passes buy trains
+[06:19] TR skips buy companies
+[06:19] 0y4h1l2k0y6 operates AR
+[06:20] AR lays tile #448 with rotation 1 on K8 (Tokushima)
+[06:20] AR skips place a token
+[06:20] AR skips run routes
+[06:20] AR does not run
+[06:20] AR's share price moves left from ¥125 to ¥110
+[06:20] AR buys a 4 train for ¥69 from KU
+[06:20] AR skips buy companies
+[06:20] 0500Rayquaza operates KO
+[06:21] KO lays tile #42 with rotation 4 on G8
+[06:21] KO skips place a token
+[06:21] KO runs a 5 train for ¥230: F1-F3-G4-F9-B7
+[06:21] KO runs a 4 train for ¥180: I4-I2-K4-K8
+[06:21] KO pays out ¥410 = ¥41 per share (¥246 to 0500Rayquaza, ¥164 to 0y4h1l2k0y6)
+[06:21] KO's share price moves right from ¥90 to ¥100
+[06:21] KO skips buy trains
+[06:21] KO skips buy companies
+[06:21] 0500Rayquaza operates SR
+[06:22] SR lays tile #24 with rotation 3 on B5
+[06:22] SR skips place a token
+[06:22] SR runs a 6 train for ¥270: F1-E2-F3-G4-I2-I4
+[06:22] SR runs a 5 train for ¥200: J1-I2-K4-K8-L7
+[06:22] SR pays out ¥470 = ¥47 per share (¥282 to 0500Rayquaza, ¥188 to 0y4h1l2k0y6)
+[06:22] SR's share price moves right from ¥80 to ¥90
+[06:22] SR skips buy trains
+[06:22] SR skips buy companies
+[06:22] 0500Rayquaza operates UR
+[06:22] UR spends ¥80 and lays tile #492 with rotation 0 on I4 (Kotohira)
+[06:22] UR skips place a token
+[06:22] UR runs a 4 train for ¥190: H7-G4-I2-I4
+[06:22] UR withholds ¥190
+[06:22] UR's share price moves left from ¥80 to ¥75
+[06:23] UR buys a 5 train for ¥1 from KO
+[06:23] UR skips buy companies
+[06:23] 0y4h1l2k0y6 operates KU
+[06:26] KU spends ¥80 and lays tile #8 with rotation 4 on A8
+[06:26] KU skips place a token
+[06:26] KU runs a 5 train for ¥230: C10-F9-G4-I2-I4
+[06:26] KU withholds ¥230
+[06:26] KU's share price moves left from ¥75 to ¥70
+[06:26] KU passes buy trains
+[06:26] KU skips buy companies
+[06:26] 0500Rayquaza operates IR
+[06:27] IR lays tile #466 with rotation 0 on K4 (Takamatsu)
+[06:27] IR skips place a token
+[06:27] IR runs a 6 train for ¥320: I4-I2-K4-K8-H7-F9
+[06:27] IR pays out ¥320 = ¥32 per share (¥160 to 0500Rayquaza)
+[06:27] IR's share price moves right from ¥70 to ¥75
+[06:27] IR buys a 4 train for ¥1 from KO
+[06:27] IR skips buy companies
+[06:27] -- Stock Round 11 --
+[06:27] 0500Rayquaza sells 5 shares of KO and receives ¥500
+[06:27] 0y4h1l2k0y6 becomes the president of KO
+[06:27] KO's share price moves down from ¥100 to ¥65
+[06:28] 0500Rayquaza buys a 10% share of IR from the IPO for ¥80
+[06:28] 0y4h1l2k0y6 buys a 10% share of KO from the market for ¥65
+[06:29] 0y4h1l2k0y6 declines to sell shares
+[06:30] 0500Rayquaza buys a 10% share of AR from the IPO for ¥80
+[06:30] 0500Rayquaza declines to sell shares
+[06:30] 0y4h1l2k0y6 buys a 10% share of KO from the market for ¥65
+[06:30] 0y4h1l2k0y6 declines to sell shares
+[06:30] 0500Rayquaza buys a 10% share of TR from the IPO for ¥65
+[06:30] 0500Rayquaza declines to sell shares
+[06:30] 0y4h1l2k0y6 buys a 10% share of TR from the IPO for ¥65
+[06:30] 0y4h1l2k0y6 declines to sell shares
+[06:30] 0500Rayquaza buys a 10% share of UR from the IPO for ¥70
+[06:30] 0500Rayquaza declines to sell shares
+[06:30] 0y4h1l2k0y6 buys a 10% share of TR from the IPO for ¥65
+[06:30] 0y4h1l2k0y6 declines to sell shares
+[06:30] 0500Rayquaza buys a 10% share of KU from the IPO for ¥75
+[06:30] 0500Rayquaza declines to sell shares
+[06:31] 0y4h1l2k0y6 sells 2 shares of TR and receives ¥280
+[06:31] TR's share price moves down from ¥140 to ¥125
+[06:31] 0y4h1l2k0y6 buys a 10% share of IR from the IPO for ¥80
+[06:32] 0500Rayquaza passes
+[06:32] 0y4h1l2k0y6 buys a 10% share of IR from the IPO for ¥80
+[06:32] 0y4h1l2k0y6 declines to sell shares
+[06:33] 0500Rayquaza passes
+[06:33] 0y4h1l2k0y6 passes
+[06:33] SR's share price moves up from ¥90 to ¥100
+[06:33] 0500Rayquaza has priority deal
+[06:33] -- Operating Round 11.1 (of 3) --
+[06:33] 0y4h1l2k0y6 operates TR
+[06:36] TR lays tile #45 with rotation 5 on J3
+[06:36] TR skips place a token
+[06:36] TR runs a 4 train for ¥210: F9-G4-I2-I4
+[06:37] TR withholds ¥210
+[06:37] TR's share price moves left from ¥125 to ¥110
+[06:37] TR passes buy trains
+[06:37] TR skips buy companies
+[06:37] 0y4h1l2k0y6 operates AR
+[06:37] AR lays tile #23 with rotation 4 on H13
+[06:37] AR skips place a token
+[06:37] AR runs a 4 train for ¥220: J1-I4-I2-K4
+[06:38] AR pays out ¥220 = ¥22 per share (¥132 to 0y4h1l2k0y6, ¥22 to 0500Rayquaza)
+[06:38] AR's share price moves right from ¥110 to ¥125
+[06:38] AR skips buy trains
+[06:38] AR skips buy companies
+[06:38] 0500Rayquaza operates SR
+[06:38] SR lays tile #15 with rotation 1 on C10 (Kubokawa)
+[06:38] SR skips place a token
+[06:38] SR runs a 6 train for ¥290: J1-I4-I2-G4-F9-B7
+[06:38] SR runs a 5 train for ¥230: J1-I2-K4-J5-I4
+[06:39] SR withholds ¥520
+[06:39] SR's share price moves left from ¥100 to ¥90
+[06:39] SR skips buy trains
+[06:39] SR skips buy companies
+[06:39] 0500Rayquaza operates UR
+[06:39] UR lays tile #28 with rotation 1 on B9
+[06:39] UR passes place a token
+[06:39] UR runs a 5 train for ¥260: H7-K8-K4-I2-I4
+[06:39] UR runs a 4 train for ¥170: B7-F9-G4-I2
+[06:39] UR pays out ¥430 = ¥43 per share (¥258 to 0500Rayquaza, ¥43 to 0y4h1l2k0y6)
+[06:39] UR's share price moves right from ¥75 to ¥80
+[06:39] UR skips buy trains
+[06:39] UR skips buy companies
+[06:39] 0500Rayquaza operates IR
+[06:40] IR lays tile #41 with rotation 1 on D9
+[06:40] IR skips place a token
+[06:40] IR runs a 4 train for ¥170: F1-E2-F3-G4
+[06:40] IR runs a 6 train for ¥320: I4-I2-K4-K8-H7-F9
+[06:40] IR pays out ¥490 = ¥49 per share (¥294 to 0500Rayquaza, ¥98 to 0y4h1l2k0y6)
+[06:40] IR's share price moves right from ¥75 to ¥80
+[06:40] IR skips buy trains
+[06:40] IR skips buy companies
+[06:40] 0y4h1l2k0y6 operates KU
+[06:41] KU lays tile #23 with rotation 2 on C8
+[06:41] KU skips place a token
+[06:42] KU runs a 5 train for ¥240: C10-F9-G4-I2-I4
+[06:42] KU withholds ¥240
+[06:42] KU's share price moves left from ¥70 to ¥65
+[06:42] KU passes buy trains
+[06:42] KU skips buy companies
+[06:42] 0y4h1l2k0y6 operates KO
+[06:43] KO lays tile #39 with rotation 5 on B9
+[06:43] KO skips place a token
+[06:43] KO skips run routes
+[06:43] KO does not run
+[06:43] KO's share price moves left from ¥65 to ¥60
+[06:45] KO buys a 4 train for ¥152 from TR
+[06:45] KO skips buy companies
+[06:45] -- Operating Round 11.2 (of 3) --
+[06:45] 0y4h1l2k0y6 operates AR
+[06:47] AR lays tile #47 with rotation 2 on C8
+[06:47] AR skips place a token
+[06:48] AR runs a 4 train for ¥220: J1-I4-I2-K4
+[06:48] AR pays out ¥220 = ¥22 per share (¥132 to 0y4h1l2k0y6, ¥22 to 0500Rayquaza)
+[06:48] AR's share price moves right from ¥125 to ¥140
+[06:48] AR skips buy trains
+[06:48] AR skips buy companies
+[06:48] 0y4h1l2k0y6 operates TR
+[06:48] TR lays tile #23 with rotation 1 on H3
+[06:48] TR skips place a token
+[06:48] TR skips run routes
+[06:48] TR does not run
+[06:48] TR's share price moves left from ¥110 to ¥100
+[06:51] TR buys a 4 train for ¥1 from KO
+[06:51] TR passes buy trains
+[06:51] TR skips buy companies
+[06:51] 0500Rayquaza operates SR
+[06:51] SR lays tile #26 with rotation 0 on I10
+[06:51] SR skips place a token
+[06:52] SR runs a 6 train for ¥290: J1-I2-I4-G4-F9-B7
+[06:52] SR runs a 5 train for ¥230: I2-I4-J5-K4-J1
+[06:52] SR withholds ¥520
+[06:52] SR's share price moves left from ¥90 to ¥80
+[06:52] SR exchanges a 5 for a D train for ¥800 from The Depot
+[06:52] -- Phase D (Operating Rounds: 3 | Train Limit: 2 | Available Tiles: Yellow, Green, Brown) --
+[06:52] -- Event: 4 trains rust (TR x1, UR x1, IR x1, AR x1) --
+[06:52] SR skips buy companies
+[06:52] 0500Rayquaza operates UR
+[06:52] UR lays tile #25 with rotation 4 on I8
+[06:52] UR passes place a token
+[06:53] UR runs a 5 train for ¥260: H7-K8-K4-I2-I4
+[06:53] UR pays out ¥260 = ¥26 per share (¥156 to 0500Rayquaza, ¥26 to 0y4h1l2k0y6)
+[06:53] UR's share price moves right from ¥80 to ¥90
+[06:53] UR passes buy trains
+[06:53] UR skips buy companies
+[06:53] 0500Rayquaza operates IR
+[06:53] IR lays tile #40 with rotation 0 on I8
+[06:53] IR skips place a token
+[06:54] IR runs a 6 train for ¥320: I4-I2-K4-K8-H7-F9
+[06:54] IR pays out ¥320 = ¥32 per share (¥192 to 0500Rayquaza, ¥64 to 0y4h1l2k0y6)
+[06:54] IR's share price moves right from ¥80 to ¥90
+[06:54] IR passes buy trains
+[06:54] IR skips buy companies
+[06:54] 0y4h1l2k0y6 operates KU
+[06:54] KU lays tile #25 with rotation 1 on E8
+[06:54] KU skips place a token
+[06:55] KU runs a 5 train for ¥240: I4-G4-F9-C10-B7
+[06:55] KU withholds ¥240
+[06:55] KU's share price moves left from ¥65 to ¥60
+[06:55] KU passes buy trains
+[06:55] KU skips buy companies
+[06:55] 0y4h1l2k0y6 operates KO
+[06:55] KO lays tile #27 with rotation 4 on D3
+[06:55] KO skips place a token
+[06:55] KO skips run routes
+[06:55] KO does not run
+[06:55] KO's share price moves left from ¥60 to ¥55
+[06:56] 0y4h1l2k0y6 contributes ¥449
+[06:56] KO buys a 5 train for ¥450 from The Discard
+[06:56] KO skips buy companies
+[06:56] -- Operating Round 11.3 (of 3) --
+[06:56] 0y4h1l2k0y6 operates AR
+[06:56] AR lays tile #46 with rotation 3 on G6
+[06:56] AR skips place a token
+[06:56] AR skips run routes
+[06:56] AR does not run
+[06:56] AR's share price moves left from ¥140 to ¥125
+[06:57] 0y4h1l2k0y6 contributes ¥1100
+[06:57] AR buys a D train for ¥1100 from The Depot
+[06:57] AR skips buy companies
+[06:57] 0y4h1l2k0y6 operates TR
+[06:58] TR passes lay/upgrade track
+[06:58] TR skips place a token
+[06:58] TR skips run routes
+[06:58] TR does not run
+[06:58] TR's share price moves left from ¥100 to ¥90
+[06:58] 0y4h1l2k0y6 sells 2 shares of AR and receives ¥250
+[06:58] AR's share price moves down from ¥125 to ¥100
+[06:58] 0y4h1l2k0y6 contributes ¥441
+[06:58] TR buys a D train for ¥1100 from The Depot
+[06:58] TR skips buy companies
+[06:58] 0500Rayquaza operates UR
+[06:59] UR spends ¥80 and lays tile #8 with rotation 0 on C6
+[06:59] UR passes place a token
+[07:00] UR runs a 5 train for ¥260: H7-K8-K4-I2-I4
+[07:00] UR pays out ¥260 = ¥26 per share (¥156 to 0500Rayquaza, ¥26 to 0y4h1l2k0y6)
+[07:00] UR's share price moves right from ¥90 to ¥100
+[07:01] UR buys a 6 train for ¥109 from SR
+[07:01] UR skips buy companies
+[07:01] 0500Rayquaza operates IR
+[07:01] IR spends ¥80 and lays tile #8 with rotation 4 on H5
+[07:01] IR skips place a token
+[07:02] IR runs a 6 train for ¥320: K4-I2-I4-H7-F9-B7
+[07:02] IR pays out ¥320 = ¥32 per share (¥192 to 0500Rayquaza, ¥64 to 0y4h1l2k0y6)
+[07:02] IR's share price moves right from ¥90 to ¥100
+[07:02] IR passes buy trains
+[07:02] IR skips buy companies
+[07:02] 0500Rayquaza operates SR
+[07:02] SR spends ¥80 and lays tile #8 with rotation 1 on I6
+[07:02] SR skips place a token
+[07:03] SR runs a D train for ¥840: F1-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-J11-J9-K8-K4-J5-I4-I2-J1
+[07:03] SR withholds ¥840
+[07:03] SR's share price moves left from ¥80 to ¥75
+[07:03] SR buys a D train for ¥1100 from The Depot
+[07:03] SR skips buy companies
+[07:03] 0y4h1l2k0y6 operates KU
+[07:04] KU spends ¥80 and lays tile #8 with rotation 2 on E4
+[07:04] KU skips place a token
+[07:04] KU runs a 5 train for ¥240: I4-G4-F9-C10-B7
+[07:04] KU withholds ¥240
+[07:04] KU's share price moves down from ¥60 to ¥55
+[07:05] KU exchanges a 5 for a D train for ¥800 from The Depot
+[07:05] KU passes buy trains
+[07:05] KU skips buy companies
+[07:05] 0y4h1l2k0y6 operates KO
+[07:05] KO lays tile #19 with rotation 0 on E4
+[07:05] KO skips place a token
+[07:05] KO runs a 5 train for ¥270: K4-I2-I4-G4-F9
+[07:05] KO withholds ¥270
+[07:05] KO's share price moves left from ¥55 to ¥50
+[07:06] KO passes buy trains
+[07:06] KO skips buy companies
+[07:06] -- Stock Round 12 --
+[07:06] 0500Rayquaza buys a 10% share of KO from the market for ¥50
+[07:06] 0500Rayquaza declines to sell shares
+[07:07] 0y4h1l2k0y6 buys a 10% share of AR from the IPO for ¥80
+[07:07] 0y4h1l2k0y6 declines to sell shares
+[07:08] 0500Rayquaza buys a 10% share of KU from the IPO for ¥75
+[07:08] 0500Rayquaza declines to sell shares
+[07:08] 0y4h1l2k0y6 buys a 10% share of AR from the IPO for ¥80
+[07:08] 0y4h1l2k0y6 declines to sell shares
+[07:08] 0500Rayquaza buys a 10% share of AR from the IPO for ¥80
+[07:08] 0500Rayquaza declines to sell shares
+[07:08] 0y4h1l2k0y6 passes
+[07:08] 0500Rayquaza buys a 10% share of AR from the market for ¥100
+[07:08] 0500Rayquaza declines to sell shares
+[07:08] 0y4h1l2k0y6 passes
+[07:08] 0500Rayquaza buys a 10% share of AR from the market for ¥100
+[07:08] 0500Rayquaza declines to sell shares
+[07:08] 0y4h1l2k0y6 passes
+[07:08] 0500Rayquaza buys a 10% share of TR from the market for ¥90
+[07:09] 0500Rayquaza sells 3 shares of AR and receives ¥300
+[07:09] 0y4h1l2k0y6 passes
+[07:09] 0500Rayquaza buys a 10% share of TR from the market for ¥90
+[07:09] 0500Rayquaza declines to sell shares
+[07:10] 0y4h1l2k0y6 sells 2 shares of IR and receives ¥200
+[07:10] IR's share price moves down from ¥100 to ¥80
+[07:10] 0y4h1l2k0y6 buys a 10% share of TR from the market for ¥90
+[07:10] 0500Rayquaza buys a 10% share of TR from the market for ¥90
+[07:10] 0500Rayquaza declines to sell shares
+[07:10] 0y4h1l2k0y6 buys a 10% share of TR from the market for ¥90
+[07:10] 0y4h1l2k0y6 declines to sell shares
+[07:11] 0500Rayquaza buys a 10% share of KO from the market for ¥50
+[07:11] 0500Rayquaza declines to sell shares
+[07:11] 0y4h1l2k0y6 passes
+[07:11] 0500Rayquaza buys a 10% share of KU from the IPO for ¥75
+[07:11] 0500Rayquaza declines to sell shares
+[07:11] 0y4h1l2k0y6 passes
+[07:11] 0500Rayquaza buys a 10% share of KU from the IPO for ¥75
+[07:11] 0500Rayquaza declines to sell shares
+[07:11] 0y4h1l2k0y6 passes
+[07:11] 0500Rayquaza buys a 10% share of KO from the market for ¥50
+[07:11] 0500Rayquaza declines to sell shares
+[07:12] 0y4h1l2k0y6 passes
+[07:12] 0500Rayquaza passes
+[07:12] TR's share price moves up from ¥90 to ¥100
+[07:12] SR's share price moves up from ¥75 to ¥80
+[07:12] KU's share price moves up from ¥55 to ¥60
+[07:12] KO's share price moves up from ¥50 to ¥55
+[07:12] 0y4h1l2k0y6 has priority deal
+[07:12] -- Operating Round 12.1 (of 3) --
+[07:12] 0y4h1l2k0y6 operates AR
+[07:13] AR lays tile #29 with rotation 4 on H5
+[07:13] AR skips place a token
+[07:15] AR runs a D train for ¥810: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-K8-L7
+[07:15] AR pays out ¥810 = ¥81 per share (¥486 to 0y4h1l2k0y6, ¥243 to AR, ¥81 to 0500Rayquaza)
+[07:15] AR's share price moves up from ¥100 to ¥110
+[07:16] AR passes buy trains
+[07:16] AR skips buy companies
+[07:16] 0500Rayquaza operates UR
+[07:16] UR lays tile #28 with rotation 3 on I6
+[07:16] UR skips place a token
+[07:17] UR runs a 6 train for ¥320: B7-F9-H7-I4-I2-K4
+[07:17] UR runs a 5 train for ¥260: J1-I4-H7-K8-K4
+[07:17] UR pays out ¥580 = ¥58 per share (¥348 to 0500Rayquaza, ¥58 to 0y4h1l2k0y6)
+[07:17] UR's share price moves up from ¥100 to ¥110
+[07:17] UR skips buy trains
+[07:17] UR skips buy companies
+[07:17] 0y4h1l2k0y6 operates TR
+[07:18] TR passes lay/upgrade track
+[07:18] TR skips place a token
+[07:19] TR runs a D train for ¥810: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-K8-L7
+[07:19] TR pays out ¥810 = ¥81 per share (¥486 to 0y4h1l2k0y6, ¥324 to 0500Rayquaza)
+[07:19] TR's share price moves right from ¥100 to ¥110
+[07:19] TR skips buy trains
+[07:19] TR skips buy companies
+[07:19] 0500Rayquaza operates IR
+[07:20] IR passes lay/upgrade track
+[07:20] IR skips place a token
+[07:20] IR runs a 6 train for ¥320: K4-I2-I4-H7-F9-B7
+[07:21] IR pays out ¥320 = ¥32 per share (¥192 to 0500Rayquaza, ¥64 to IR)
+[07:21] IR's share price moves right from ¥80 to ¥90
+[07:21] IR buys a D train for ¥23 from SR
+[07:21] IR skips buy companies
+[07:21] 0500Rayquaza operates SR
+[07:21] SR spends ¥80 and lays tile #9 with rotation 0 on E6
+[07:21] SR skips place a token
+[07:22] SR runs a D train for ¥850: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-J11-J9-K8-L7
+[07:23] SR withholds ¥850
+[07:23] SR's share price moves left from ¥80 to ¥75
+[07:23] SR buys a 5 train for ¥17 from UR
+[07:23] SR exchanges a 5 for a D train for ¥800 from The Depot
+[07:23] SR skips buy companies
+[07:23] 0y4h1l2k0y6 operates KU
+[07:23] KU spends ¥80 and lays tile #9 with rotation 2 on D5
+[07:23] KU skips place a token
+[07:25] KU runs a D train for ¥810: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-K8-L7
+[07:25] KU pays out ¥810 = ¥81 per share (¥486 to 0y4h1l2k0y6, ¥324 to 0500Rayquaza)
+[07:25] KU's share price moves right from ¥60 to ¥65
+[07:25] KU passes buy trains
+[07:25] KU skips buy companies
+[07:25] 0y4h1l2k0y6 operates KO
+[07:25] KO lays tile #20 with rotation 2 on E6
+[07:25] KO skips place a token
+[07:26] KO runs a 5 train for ¥270: K4-I2-I4-G4-F9
+[07:26] KO withholds ¥270
+[07:26] KO's share price moves down from ¥55 to ¥50
+[07:26] KO buys a 5 train for ¥450 from The Discard
+[07:26] KO skips buy companies
+[07:26] -- Operating Round 12.2 (of 3) --
+[07:26] 0y4h1l2k0y6 operates AR
+[07:27] AR spends ¥80 and lays tile #8 with rotation 0 on F7
+[07:27] AR skips place a token
+[07:27] AR runs a D train for ¥810: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-K8-L7
+[07:27] AR pays out ¥810 = ¥81 per share (¥486 to 0y4h1l2k0y6, ¥243 to AR, ¥81 to 0500Rayquaza)
+[07:27] AR's share price moves right from ¥110 to ¥125
+[07:28] AR passes buy trains
+[07:28] AR skips buy companies
+[07:28] 0500Rayquaza operates UR
+[07:28] UR passes lay/upgrade track
+[07:28] UR skips place a token
+[07:28] UR runs a 6 train for ¥320: B7-F9-H7-I4-I2-K4
+[07:28] UR pays out ¥320 = ¥32 per share (¥192 to 0500Rayquaza, ¥32 to 0y4h1l2k0y6)
+[07:28] UR's share price moves right from ¥110 to ¥125
+[07:28] UR buys a D train for ¥1 from SR
+[07:28] UR skips buy companies
+[07:28] 0y4h1l2k0y6 operates TR
+[07:33] TR passes lay/upgrade track
+[07:33] TR skips place a token
+[07:33] TR runs a D train for ¥810: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-K8-L7
+[07:34] -- The bank has broken --
+[07:34] TR pays out ¥810 = ¥81 per share (¥486 to 0y4h1l2k0y6, ¥324 to 0500Rayquaza)
+[07:34] TR's share price moves right from ¥110 to ¥125
+[07:34] TR skips buy trains
+[07:34] TR skips buy companies
+[07:34] 0500Rayquaza operates IR
+[07:35] IR spends ¥80 and lays tile #8 with rotation 1 on H11
+[07:35] IR skips place a token
+[07:36] IR runs a 6 train for ¥320: K4-I2-I4-H7-F9-B7
+[07:36] IR runs a D train for ¥750: F1-E2-F3-G4-H7-I4-J5-K4-K8-I12-G14-G12-G10-F9-C4-B3-C10-B11-A10-B7
+[07:36] IR pays out ¥1070 = ¥107 per share (¥642 to 0500Rayquaza, ¥214 to IR)
+[07:36] IR's share price moves right from ¥90 to ¥100
+[07:36] IR skips buy trains
+[07:36] IR skips buy companies
+[07:36] 0500Rayquaza operates SR
+[07:44] SR spends ¥80 and lays tile #9 with rotation 0 on H9
+[07:44] SR skips place a token
+[07:45] SR runs a D train for ¥850: J1-I2-K4-J5-I4-G4-F3-E2-B7-A10-B11-C10-B3-C4-F9-G10-G12-G14-I12-J11-J9-K8-L7
+[07:45] SR pays out ¥850 = ¥85 per share (¥510 to 0500Rayquaza, ¥340 to 0y4h1l2k0y6)
+[07:45] SR's share price moves right from ¥75 to ¥80
+[07:45] SR passes buy trains
+[07:45] SR skips buy companies
+[07:45] 0y4h1l2k0y6 operates KU
+[07:46] KU passes lay/upgrade track
+[07:46] KU skips place a token
+[07:46] KU runs a D train for ¥810: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-K8-L7
+[07:46] KU pays out ¥810 = ¥81 per share (¥486 to 0y4h1l2k0y6, ¥324 to 0500Rayquaza)
+[07:46] KU's share price moves right from ¥65 to ¥70
+[07:47] KU passes buy trains
+[07:47] KU skips buy companies
+[07:47] 0y4h1l2k0y6 operates KO
+[07:47] KO spends ¥80 and lays tile #9 with rotation 0 on F5
+[07:47] KO skips place a token
+[07:47] KO runs a 5 train for ¥260: K8-K4-I2-I4-H7
+[07:47] KO runs a 5 train for ¥250: H7-I4-G4-F9-B7
+[07:47] KO pays out ¥510 = ¥51 per share (¥306 to 0y4h1l2k0y6, ¥204 to 0500Rayquaza)
+[07:47] KO's share price moves right from ¥50 to ¥55
+[07:47] KO skips buy trains
+[07:47] KO skips buy companies
+[07:47] -- Operating Round 12.3 (of 3) --
+[07:47] 0y4h1l2k0y6 operates AR
+[07:47] AR lays tile #16 with rotation 0 on F7
+[07:47] AR skips place a token
+[07:47] AR runs a D train for ¥810: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-K8-L7
+[07:48] AR pays out ¥810 = ¥81 per share (¥486 to 0y4h1l2k0y6, ¥243 to AR, ¥81 to 0500Rayquaza)
+[07:48] AR's share price moves right from ¥125 to ¥140
+[07:48] AR passes buy trains
+[07:48] AR skips buy companies
+[07:48] 0500Rayquaza operates UR
+[07:48] UR passes lay/upgrade track
+[07:48] UR skips place a token
+[07:50] UR runs a D train for ¥800: J1-I2-I4-J5-K4-K8-I12-G14-G12-G10-F9-C4-B3-C10-B11-A10-B7-E2-F3-F1
+[07:50] UR runs a 6 train for ¥290: H7-I4-G4-F3-E2-F1
+[07:50] UR pays out ¥1090 = ¥109 per share (¥654 to 0500Rayquaza, ¥109 to 0y4h1l2k0y6)
+[07:50] UR's share price moves right from ¥125 to ¥140
+[07:50] UR skips buy trains
+[07:50] UR skips buy companies
+[07:50] 0y4h1l2k0y6 operates TR
+[07:51] TR passes lay/upgrade track
+[07:51] TR skips place a token
+[07:51] TR runs a D train for ¥810: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-K8-L7
+[07:51] TR pays out ¥810 = ¥81 per share (¥486 to 0y4h1l2k0y6, ¥324 to 0500Rayquaza)
+[07:51] TR's share price moves right from ¥125 to ¥140
+[07:51] TR skips buy trains
+[07:51] TR skips buy companies
+[07:51] 0500Rayquaza operates IR
+[07:51] IR passes lay/upgrade track
+[07:51] IR skips place a token
+[07:52] IR runs a 6 train for ¥320: K4-I2-I4-H7-F9-B7
+[07:52] IR runs a D train for ¥750: F1-E2-F3-G4-H7-I4-J5-K4-K8-I12-G14-G12-G10-F9-C4-B3-C10-B11-A10-B7
+[07:52] IR pays out ¥1070 = ¥107 per share (¥642 to 0500Rayquaza, ¥214 to IR)
+[07:52] IR's share price moves up from ¥100 to ¥110
+[07:52] IR skips buy trains
+[07:52] IR skips buy companies
+[07:52] 0500Rayquaza operates SR
+[07:52] SR passes lay/upgrade track
+[07:52] SR skips place a token
+[07:52] SR runs a D train for ¥850: J1-I2-K4-J5-I4-G4-F3-E2-B7-A10-B11-C10-B3-C4-F9-G10-G12-G14-I12-J11-J9-K8-L7
+[07:52] SR pays out ¥850 = ¥85 per share (¥510 to 0500Rayquaza, ¥340 to 0y4h1l2k0y6)
+[07:52] SR's share price moves right from ¥80 to ¥90
+[07:52] SR passes buy trains
+[07:52] SR skips buy companies
+[07:52] 0y4h1l2k0y6 operates KU
+[07:52] KU passes lay/upgrade track
+[07:52] KU skips place a token
+[07:52] KU runs a D train for ¥810: J1-I2-K4-J5-I4-G4-F3-E2-C4-B3-C10-B11-A10-B7-F9-G10-G12-G14-I12-K8-L7
+[07:52] KU pays out ¥810 = ¥81 per share (¥486 to 0y4h1l2k0y6, ¥324 to 0500Rayquaza)
+[07:52] KU's share price moves right from ¥70 to ¥75
+[07:52] KU passes buy trains
+[07:52] KU skips buy companies
+[07:52] 0y4h1l2k0y6 operates KO
+[07:52] KO passes lay/upgrade track
+[07:52] KO skips place a token
+[07:53] KO runs a 5 train for ¥260: K8-K4-I2-I4-H7
+[07:53] KO runs a 5 train for ¥250: H7-I4-G4-F9-B7
+[07:53] KO pays out ¥510 = ¥51 per share (¥306 to 0y4h1l2k0y6, ¥204 to 0500Rayquaza)
+[07:53] KO's share price moves right from ¥55 to ¥60
+[07:53] KO skips buy trains
+[07:53] KO skips buy companies
+[07:53] -- Game over: 0500Rayquaza (¥11645), 0y4h1l2k0y6 (¥8909) --

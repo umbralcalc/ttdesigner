@@ -8,7 +8,7 @@ import (
 )
 
 func TestReplayTranscript247490(t *testing.T) {
-	events, err := ParseTranscript("../../dat/transcript_247490.log")
+	events, err := ParseTranscript("./transcript_247490.log")
 	if err != nil {
 		t.Fatalf("parse error: %v", err)
 	}

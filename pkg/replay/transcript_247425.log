@@ -1,0 +1,943 @@
+ -- Phase 2 (Operating Rounds: 1 | Train Limit: 4 | Available Tiles: Yellow) --
+ Optional rules used in this game:
+  * Beginner Game: Simpler privates, more tiles available
+ RobinEatingWorm buys South Iyo Railway for ¥90
+ …ᘛ⁐̤ᕐᐷ buys Sumitomo Mines Railway for ¥60
+ Primus buys Ehime Railway for ¥40
+ Azcanta buys Dougo Railway for ¥60
+[00:41] RobinEatingWorm pars KO at ¥65
+[00:41] RobinEatingWorm buys a 20% share of KO from the IPO for ¥130
+[00:41] RobinEatingWorm becomes the president of KO
+[00:41] …ᘛ⁐̤ᕐᐷ pars TR at ¥90
+[00:41] …ᘛ⁐̤ᕐᐷ buys a 20% share of TR from the IPO for ¥180
+[00:41] …ᘛ⁐̤ᕐᐷ becomes the president of TR
+[00:42] Primus buys a 10% share of TR from the IPO for ¥90
+[00:42] Azcanta passes
+[00:42] RobinEatingWorm buys a 10% share of KO from the IPO for ¥65
+[00:43] …ᘛ⁐̤ᕐᐷ buys a 10% share of TR from the IPO for ¥90
+[00:43] Primus buys a 10% share of TR from the IPO for ¥90
+[00:43] TR floats
+[00:43] TR receives ¥900
+[00:43] Azcanta passes
+[00:43] RobinEatingWorm buys a 10% share of KO from the IPO for ¥65
+[00:45] …ᘛ⁐̤ᕐᐷ buys a 10% share of KO from the IPO for ¥65
+[00:45] KO floats
+[00:45] KO receives ¥650
+[00:45] Primus buys a 10% share of KO from the IPO for ¥65
+[00:45] Azcanta passes
+[00:46] RobinEatingWorm passes
+[00:46] …ᘛ⁐̤ᕐᐷ has no valid actions and passes
+[00:46] Primus passes
+[00:46] Azcanta has priority deal
+[00:46] -- Operating Round 1.1 (of 1) --
+[00:46] Azcanta collects ¥20 from Dougo Railway
+[00:46] RobinEatingWorm collects ¥25 from South Iyo Railway
+[00:46] …ᘛ⁐̤ᕐᐷ collects ¥20 from Sumitomo Mines Railway
+[00:46] Primus collects ¥15 from Ehime Railway
+[00:46] TR places a token on F9
+[00:46] KO places a token on K4
+[00:46] …ᘛ⁐̤ᕐᐷ operates TR
+[00:47] TR lays tile #58 with rotation 0 on G10 (Nangoku)
+[00:47] TR skips place a token
+[00:47] TR skips run routes
+[00:47] TR does not run
+[00:47] TR's share price moves left from ¥90 to ¥80
+[00:47] TR buys a 2 train for ¥80 from The Depot
+[00:49] TR buys a 2 train for ¥80 from The Depot
+[00:49] TR passes buy trains
+[00:49] TR skips buy companies
+[00:49] RobinEatingWorm operates KO
+[00:49] KO lays tile #8 with rotation 3 on J3
+[00:49] KO skips place a token
+[00:49] KO skips run routes
+[00:49] KO does not run
+[00:49] KO's share price moves left from ¥65 to ¥60
+[00:53] KO buys a 2 train for ¥80 from The Depot
+[00:54] KO passes buy trains
+[00:54] KO skips buy companies
+[00:54] -- Stock Round 2 --
+[00:54] Azcanta buys a 10% share of KO from the IPO for ¥65
+[00:54] Azcanta declines to sell shares
+[00:54] RobinEatingWorm buys a 10% share of KO from the IPO for ¥65
+[00:54] RobinEatingWorm declines to sell shares
+[00:54] …ᘛ⁐̤ᕐᐷ passes
+[00:55] Primus buys a 10% share of TR from the IPO for ¥90
+[00:55] Primus declines to sell shares
+[00:55] Azcanta buys a 10% share of TR from the IPO for ¥90
+[00:55] Azcanta declines to sell shares
+[00:55] RobinEatingWorm passes
+[00:55] …ᘛ⁐̤ᕐᐷ passes
+[00:55] Primus passes
+[00:55] Azcanta buys a 10% share of TR from the IPO for ¥90
+[00:55] Azcanta declines to sell shares
+[00:55] RobinEatingWorm passes
+[00:55] …ᘛ⁐̤ᕐᐷ passes
+[00:55] Primus passes
+[00:55] Azcanta buys a 10% share of TR from the IPO for ¥90
+[00:55] Azcanta declines to sell shares
+[00:55] RobinEatingWorm passes
+[00:56] …ᘛ⁐̤ᕐᐷ passes
+[00:56] Primus passes
+[00:56] Azcanta passes
+[00:56] RobinEatingWorm has priority deal
+[00:56] -- Operating Round 2.1 (of 1) --
+[00:56] RobinEatingWorm collects ¥25 from South Iyo Railway
+[00:56] …ᘛ⁐̤ᕐᐷ collects ¥20 from Sumitomo Mines Railway
+[00:56] Primus collects ¥15 from Ehime Railway
+[00:56] Azcanta collects ¥20 from Dougo Railway
+[00:56] …ᘛ⁐̤ᕐᐷ operates TR
+[00:56] TR lays tile #57 with rotation 0 on G12 (Nahari)
+[00:56] TR places a token on G12 (Nahari)  for ¥40
+[00:58] TR runs a 2 train for ¥40: G12-G14
+[00:58] TR runs a 2 train for ¥40: F9-G10
+[00:59] TR pays out ¥80 = ¥8 per share (¥24 to …ᘛ⁐̤ᕐᐷ, ¥24 to Primus, ¥24 to Azcanta)
+[00:59] TR's share price moves right from ¥80 to ¥90
+[00:59] TR buys a 2 train for ¥80 from The Depot
+[00:59] TR passes buy trains
+[00:59] TR skips buy companies
+[00:59] RobinEatingWorm operates KO
+[01:00] KO spends ¥80 and lays tile #8 with rotation 3 on K6
+[01:00] KO skips place a token
+[01:01] KO runs a 2 train for ¥50: K4-J1
+[01:01] KO withholds ¥50
+[01:01] KO's share price moves left from ¥60 to ¥55
+[01:01] KO buys a 2 train for ¥80 from The Depot
+[01:01] KO passes buy trains
+[01:01] KO skips buy companies
+[01:01] -- Stock Round 3 --
+[01:02] RobinEatingWorm passes
+[01:03] …ᘛ⁐̤ᕐᐷ passes
+[01:03] Primus buys a 10% share of TR from the IPO for ¥90
+[01:03] Primus becomes the president of TR
+[01:03] Primus declines to sell shares
+[01:03] Azcanta sells 3 shares of TR and receives ¥270
+[01:03] TR's share price moves down from ¥90 to ¥70
+[01:04] Azcanta pars IR at ¥65
+[01:04] Azcanta buys a 20% share of IR from the IPO for ¥130
+[01:04] Azcanta becomes the president of IR
+[01:05] RobinEatingWorm passes
+[01:06] …ᘛ⁐̤ᕐᐷ buys a 10% share of IR from the IPO for ¥65
+[01:06] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[01:07] Primus passes
+[01:07] Azcanta buys a 10% share of IR from the IPO for ¥65
+[01:07] Azcanta declines to sell shares
+[01:07] RobinEatingWorm passes
+[01:07] …ᘛ⁐̤ᕐᐷ passes
+[01:07] Primus passes
+[01:07] Azcanta buys a 10% share of IR from the IPO for ¥65
+[01:07] IR floats
+[01:07] IR receives ¥650
+[01:07] Azcanta declines to sell shares
+[01:07] RobinEatingWorm passes
+[01:07] …ᘛ⁐̤ᕐᐷ passes
+[01:07] Primus passes
+[01:07] Azcanta passes
+[01:07] RobinEatingWorm has priority deal
+[01:07] -- Operating Round 3.1 (of 1) --
+[01:07] RobinEatingWorm collects ¥25 from South Iyo Railway
+[01:07] …ᘛ⁐̤ᕐᐷ collects ¥20 from Sumitomo Mines Railway
+[01:07] Primus collects ¥15 from Ehime Railway
+[01:07] Azcanta collects ¥20 from Dougo Railway
+[01:07] IR places a token on E2
+[01:07] Primus operates TR
+[01:08] TR spends ¥80 and lays tile #Beg9 with rotation 1 on G8
+[01:08] TR skips place a token
+[01:09] TR runs a 2 train for ¥40: F9-G10
+[01:09] TR runs a 2 train for ¥40: G12-G14
+[01:09] TR runs a 2 train for ¥30: G12-G10
+[01:09] TR pays out ¥110 = ¥11 per share (¥44 to Primus, ¥33 to …ᘛ⁐̤ᕐᐷ, ¥33 to TR)
+[01:09] TR's share price moves right from ¥70 to ¥75
+[01:10] TR passes buy trains
+[01:10] TR skips buy companies
+[01:10] Azcanta operates IR
+[01:10] IR lays tile #5 with rotation 4 on E2 (Matsuyama)
+[01:10] IR skips place a token
+[01:10] IR skips run routes
+[01:10] IR does not run
+[01:10] IR's share price moves left from ¥65 to ¥60
+[01:10] IR buys a 2 train for ¥80 from The Depot
+[01:10] IR buys a 3 train for ¥180 from The Depot
+[01:10] -- Phase 3 (Operating Rounds: 2 | Train Limit: 4 | Available Tiles: Yellow, Green) --
+[01:10] IR passes buy trains
+[01:10] IR skips buy companies
+[01:10] RobinEatingWorm operates KO
+[01:10] KO lays tile #58 with rotation 2 on J5 (Ritsurin Kouen)
+[01:10] KO skips place a token
+[01:10] KO runs a 2 train for ¥50: K4-L7
+[01:10] KO runs a 2 train for ¥50: K4-J1
+[01:11] KO withholds ¥100
+[01:11] KO's share price moves left from ¥55 to ¥50
+[01:11] KO buys a 3 train for ¥180 from The Depot
+[01:11] KO passes buy trains
+[01:11] KO skips buy companies
+[01:11] -- Stock Round 4 --
+[01:11] RobinEatingWorm buys a 10% share of KO from the IPO for ¥65
+[01:12] RobinEatingWorm declines to sell shares
+[01:14] …ᘛ⁐̤ᕐᐷ passes
+[01:14] Primus passes
+[01:14] Azcanta buys a 10% share of TR from the market for ¥75
+[01:14] Azcanta sells a 10% share of KO and receives ¥50
+[01:14] KO's share price moves down from ¥50 to ¥45
+[01:16] RobinEatingWorm passes
+[01:16] …ᘛ⁐̤ᕐᐷ buys a 10% share of TR from the market for ¥75
+[01:16] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[01:17] Primus passes
+[01:17] Azcanta buys a 10% share of TR from the market for ¥75
+[01:17] Azcanta sells 2 shares of TR and receives ¥150
+[01:17] TR's share price moves down from ¥75 to ¥65
+[01:17] RobinEatingWorm passes
+[01:17] …ᘛ⁐̤ᕐᐷ passes
+[01:18] Primus buys a 10% share of TR from the market for ¥65
+[01:18] Primus declines to sell shares
+[01:18] Azcanta buys a 10% share of IR from the IPO for ¥65
+[01:18] Azcanta declines to sell shares
+[01:18] RobinEatingWorm passes
+[01:18] …ᘛ⁐̤ᕐᐷ passes
+[01:18] Primus passes
+[01:18] Azcanta buys a 10% share of IR from the IPO for ¥65
+[01:18] Azcanta declines to sell shares
+[01:18] RobinEatingWorm passes
+[01:18] …ᘛ⁐̤ᕐᐷ passes
+[01:18] Primus passes
+[01:18] Azcanta passes
+[01:18] RobinEatingWorm has priority deal
+[01:18] -- Operating Round 4.1 (of 2) --
+[01:18] RobinEatingWorm collects ¥25 from South Iyo Railway
+[01:18] …ᘛ⁐̤ᕐᐷ collects ¥20 from Sumitomo Mines Railway
+[01:18] Primus collects ¥15 from Ehime Railway
+[01:18] Azcanta collects ¥20 from Dougo Railway
+[01:18] Primus operates TR
+[01:19] TR lays tile #6 with rotation 5 on H7 (Ikeda)
+[01:19] TR places a token on H7 (Ikeda)  for ¥40
+[01:20] TR runs a 2 train for ¥40: G10-F9
+[01:20] TR runs a 2 train for ¥40: G14-G12
+[01:20] TR runs a 2 train for ¥50: F9-H7
+[01:20] TR pays out ¥130 = ¥13 per share (¥65 to Primus, ¥52 to …ᘛ⁐̤ᕐᐷ, ¥13 to TR)
+[01:20] TR's share price moves right from ¥65 to ¥70
+[01:21] TR buys a 3 train for ¥180 from The Depot
+[01:21] TR skips buy companies
+[01:21] Azcanta operates IR
+[01:21] IR lays tile #5 with rotation 2 on F3 (Saijou)
+[01:21] IR passes place a token
+[01:21] IR runs a 3 train for ¥70: E2-F3-F1
+[01:21] IR runs a 2 train for ¥50: E2-F1
+[01:21] IR pays out ¥120 = ¥12 per share (¥72 to Azcanta, ¥12 to …ᘛ⁐̤ᕐᐷ)
+[01:21] IR's share price moves right from ¥60 to ¥65
+[01:21] IR passes buy trains
+[01:21] IR skips buy companies
+[01:21] RobinEatingWorm operates KO
+[01:23] KO spends ¥80 and lays tile #438 with rotation 3 on I4 (Kotohira)
+[01:23] KO passes place a token
+[01:23] KO runs a 2 train for ¥50: K4-J1
+[01:23] KO runs a 2 train for ¥50: K4-L7
+[01:23] KO runs a 3 train for ¥80: K4-J5-I4
+[01:23] KO withholds ¥180
+[01:23] KO's share price moves down from ¥45 to ¥40
+[01:23] KO buys a 3 train for ¥180 from The Depot
+[01:23] KO skips buy companies
+[01:23] -- Operating Round 4.2 (of 2) --
+[01:23] RobinEatingWorm collects ¥25 from South Iyo Railway
+[01:23] …ᘛ⁐̤ᕐᐷ collects ¥20 from Sumitomo Mines Railway
+[01:23] Primus collects ¥15 from Ehime Railway
+[01:23] Azcanta collects ¥20 from Dougo Railway
+[01:23] Primus operates TR
+[01:27] TR lays tile #9 with rotation 2 on I8
+[01:27] TR skips place a token
+[01:27] TR runs a 3 train for ¥50: F9-H7
+[01:27] TR runs a 2 train for ¥40: G12-G14
+[01:27] TR runs a 2 train for ¥40: F9-G10
+[01:27] TR runs a 2 train for ¥30: G12-G10
+[01:27] TR pays out ¥160 = ¥16 per share (¥80 to Primus, ¥64 to …ᘛ⁐̤ᕐᐷ, ¥16 to TR)
+[01:27] TR's share price moves up from ¥70 to ¥75
+[01:27] TR skips buy trains
+[01:27] TR skips buy companies
+[01:27] Azcanta operates IR
+[01:27] IR lays tile #14 with rotation 2 on F3 (Saijou)
+[01:27] IR passes place a token
+[01:27] IR runs a 3 train for ¥80: E2-F3-F1
+[01:27] IR runs a 2 train for ¥50: E2-F1
+[01:28] IR pays out ¥130 = ¥13 per share (¥78 to Azcanta, ¥13 to …ᘛ⁐̤ᕐᐷ)
+[01:28] IR's share price moves right from ¥65 to ¥70
+[01:28] IR passes buy trains
+[01:28] IR skips buy companies
+[01:28] RobinEatingWorm operates KO
+[01:29] KO lays tile #6 with rotation 4 on I2 (Marugame)
+[01:29] KO places a token on I4 (Kotohira)  for ¥40
+[01:29] KO runs a 3 train for ¥80: I4-J5-K4
+[01:29] KO runs a 3 train for ¥80: I4-I2-J1
+[01:29] KO runs a 2 train for ¥50: K4-J1
+[01:29] KO runs a 2 train for ¥50: K4-L7
+[01:29] KO withholds ¥260
+[01:29] KO's share price moves down from ¥40 to ¥30
+[01:29] KO skips buy trains
+[01:29] KO skips buy companies
+[01:29] -- Stock Round 5 --
+[01:29] RobinEatingWorm buys a 10% share of KO from the IPO for ¥65
+[01:31] RobinEatingWorm declines to sell shares
+[01:33] …ᘛ⁐̤ᕐᐷ buys a 10% share of TR from the market for ¥75
+[01:33] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[01:33] Primus passes
+[01:34] Azcanta pars SR at ¥70
+[01:34] Azcanta buys a 20% share of SR from the IPO for ¥140
+[01:34] Azcanta becomes the president of SR
+[01:34] Azcanta declines to sell shares
+[01:34] RobinEatingWorm passes
+[01:35] …ᘛ⁐̤ᕐᐷ passes
+[01:35] Primus passes
+[01:35] Azcanta buys a 10% share of SR from the IPO for ¥70
+[01:35] Azcanta declines to sell shares
+[01:35] RobinEatingWorm passes
+[01:35] …ᘛ⁐̤ᕐᐷ passes
+[01:35] Primus passes
+[01:35] Azcanta sells a 10% share of IR and receives ¥70
+[01:35] IR's share price moves down from ¥70 to ¥65
+[01:35] Azcanta buys a 10% share of SR from the IPO for ¥70
+[01:35] RobinEatingWorm passes
+[01:36] …ᘛ⁐̤ᕐᐷ passes
+[01:36] Primus passes
+[01:36] Azcanta sells a 10% share of IR and receives ¥65
+[01:36] IR's share price moves down from ¥65 to ¥60
+[01:36] Azcanta buys a 10% share of SR from the IPO for ¥70
+[01:36] SR floats
+[01:36] SR receives ¥700
+[01:36] RobinEatingWorm passes
+[01:36] …ᘛ⁐̤ᕐᐷ buys a 10% share of SR from the IPO for ¥70
+[01:36] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[01:37] Primus passes
+[01:37] Azcanta passes
+[01:37] RobinEatingWorm passes
+[01:37] …ᘛ⁐̤ᕐᐷ passes
+[01:37] TR's share price moves up from ¥75 to ¥80
+[01:37] Primus has priority deal
+[01:37] -- Operating Round 5.1 (of 2) --
+[01:37] Primus collects ¥15 from Ehime Railway
+[01:37] Azcanta collects ¥20 from Dougo Railway
+[01:37] RobinEatingWorm collects ¥25 from South Iyo Railway
+[01:37] …ᘛ⁐̤ᕐᐷ collects ¥20 from Sumitomo Mines Railway
+[01:37] SR places a token on I2
+[01:37] Primus operates TR
+[01:38] TR lays tile #58 with rotation 0 on J9 (Komatsujima)
+[01:38] TR skips place a token
+[01:38] TR runs a 3 train for ¥60: F9-G10-G12
+[01:38] TR runs a 2 train for ¥50: F9-H7
+[01:38] TR runs a 2 train for ¥40: G12-G14
+[01:38] TR runs a 2 train for ¥30: H7-J9
+[01:39] TR pays out ¥180 = ¥18 per share (¥90 to Primus, ¥90 to …ᘛ⁐̤ᕐᐷ)
+[01:39] TR's share price moves right from ¥80 to ¥90
+[01:39] TR skips buy trains
+[01:39] TR skips buy companies
+[01:39] Azcanta operates SR
+[01:39] SR lays tile #15 with rotation 4 on I2 (Marugame)
+[01:39] SR skips place a token
+[01:39] SR skips run routes
+[01:39] SR does not run
+[01:39] SR's share price moves left from ¥70 to ¥65
+[01:39] SR buys a 3 train for ¥180 from The Depot
+[01:39] SR passes buy trains
+[01:39] SR skips buy companies
+[01:39] Azcanta operates IR
+[01:39] IR lays tile #6 with rotation 2 on G4 (Niihama)
+[01:39] IR passes place a token
+[01:39] IR runs a 3 train for ¥80: E2-F3-F1
+[01:39] IR runs a 2 train for ¥50: E2-F1
+[01:39] IR pays out ¥130 = ¥13 per share (¥52 to Azcanta, ¥26 to IR, ¥13 to …ᘛ⁐̤ᕐᐷ)
+[01:39] IR's share price moves up from ¥60 to ¥65
+[01:39] IR buys a 4 train for ¥300 from The Depot
+[01:39] -- Phase 4 (Operating Rounds: 2 | Train Limit: 3 | Available Tiles: Yellow, Green) --
+[01:39] -- Event: 2 trains rust (TR x3, KO x2, IR x1) --
+[01:39] IR passes buy trains
+[01:39] IR skips buy companies
+[01:39] RobinEatingWorm operates KO
+[01:40] KO lays tile #9 with rotation 1 on H3
+[01:40] KO skips place a token
+[01:40] KO runs a 3 train for ¥90: I4-I2-G4
+[01:40] KO runs a 3 train for ¥80: I4-J5-K4
+[01:40] KO withholds ¥170
+[01:40] KO's share price moves down from ¥30 to ¥20
+[01:40] KO buys a 4 train for ¥300 from The Depot
+[01:40] KO skips buy companies
+[01:40] -- Operating Round 5.2 (of 2) --
+[01:40] Primus collects ¥15 from Ehime Railway
+[01:40] Azcanta collects ¥20 from Dougo Railway
+[01:40] RobinEatingWorm collects ¥25 from South Iyo Railway
+[01:40] …ᘛ⁐̤ᕐᐷ collects ¥20 from Sumitomo Mines Railway
+[01:40] Primus operates TR
+[01:41] TR lays tile #Beg6 with rotation 1 on J11 (Anan)
+[01:41] TR skips place a token
+[01:41] TR runs a 3 train for ¥60: H7-F9-G10
+[01:41] TR withholds ¥60
+[01:41] TR's share price moves left from ¥90 to ¥80
+[01:41] TR buys a 4 train for ¥300 from The Depot
+[01:41] TR passes buy trains
+[01:41] TR skips buy companies
+[01:41] Azcanta operates IR
+[01:42] IR lays tile #205 with rotation 4 on E2 (Matsuyama)
+[01:42] IR places a token on I2 (Marugame)  for ¥40
+[01:42] IR runs a 4 train for ¥120: I4-I2-G4-F3
+[01:42] IR runs a 3 train for ¥90: F1-E2-F3
+[01:42] IR withholds ¥210
+[01:42] IR's share price moves left from ¥65 to ¥60
+[01:42] IR passes buy trains
+[01:42] IR skips buy companies
+[01:42] Azcanta operates SR
+[01:42] SR lays tile #13 with rotation 0 on G4 (Niihama)
+[01:42] SR places a token on F3 (Saijou)  for ¥40
+[01:43] SR runs a 3 train for ¥100: I4-I2-G4
+[01:43] SR pays out ¥100 = ¥10 per share (¥50 to Azcanta, ¥10 to …ᘛ⁐̤ᕐᐷ)
+[01:43] SR's share price moves right from ¥65 to ¥70
+[01:43] SR passes buy trains
+[01:43] SR skips buy companies
+[01:43] RobinEatingWorm operates KO
+[01:43] KO lays tile #23 with rotation 5 on J3
+[01:43] KO skips place a token
+[01:43] KO runs a 4 train for ¥110: I4-J5-K4-I2
+[01:43] KO runs a 3 train for ¥70: I4-I2
+[01:43] KO runs a 3 train for ¥50: K4-L7
+[01:43] KO withholds ¥230
+[01:43] KO's share price moves down from ¥20 to ¥10
+[01:43] KO skips buy trains
+[01:43] KO skips buy companies
+[01:43] -- Stock Round 6 --
+[01:44] Primus pars UR at ¥70
+[01:44] Primus buys a 20% share of UR from the IPO for ¥140
+[01:44] Primus becomes the president of UR
+[01:44] Primus declines to sell shares
+[01:45] Azcanta buys a 10% share of KO from the market for ¥10
+[01:45] Azcanta declines to sell shares
+[01:45] RobinEatingWorm passes
+[01:45] …ᘛ⁐̤ᕐᐷ buys a 10% share of UR from the IPO for ¥70
+[01:46] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[01:46] Primus buys a 10% share of UR from the IPO for ¥70
+[01:46] Primus declines to sell shares
+[01:46] Azcanta buys a 10% share of SR from the IPO for ¥70
+[01:46] Azcanta declines to sell shares
+[01:46] RobinEatingWorm passes
+[01:46] …ᘛ⁐̤ᕐᐷ buys a 10% share of UR from the IPO for ¥70
+[01:46] UR floats
+[01:46] UR receives ¥700
+[01:47] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[01:47] Primus buys a 10% share of IR from the IPO for ¥65
+[01:47] Primus declines to sell shares
+[01:48] Azcanta passes
+[01:48] RobinEatingWorm passes
+[01:48] …ᘛ⁐̤ᕐᐷ passes
+[01:48] Primus passes
+[01:48] TR's share price moves up from ¥80 to ¥90
+[01:48] KO's share price moves up from ¥10 to ¥20
+[01:48] Azcanta has priority deal
+[01:48] -- Operating Round 6.1 (of 2) --
+[01:48] Azcanta collects ¥20 from Dougo Railway
+[01:48] RobinEatingWorm collects ¥25 from South Iyo Railway
+[01:48] …ᘛ⁐̤ᕐᐷ collects ¥20 from Sumitomo Mines Railway
+[01:48] Primus collects ¥15 from Ehime Railway
+[01:48] UR places a token on B7
+[01:48] Primus operates TR
+[01:49] TR lays tile #12 with rotation 5 on H7 (Ikeda)
+[01:49] TR skips place a token
+[01:50] TR runs a 4 train for ¥90: F9-H7-J9-J11
+[01:50] TR runs a 3 train for ¥60: F9-G10-G12
+[01:50] TR pays out ¥150 = ¥15 per share (¥75 to …ᘛ⁐̤ᕐᐷ, ¥75 to Primus)
+[01:50] TR's share price moves right from ¥90 to ¥100
+[01:51] TR passes buy trains
+[01:51] TR skips buy companies
+[01:51] Azcanta operates SR
+[01:51] SR spends ¥80 and lays tile #439 with rotation 1 on I4 (Kotohira)
+[01:51] SR skips place a token
+[01:51] SR runs a 3 train for ¥120: I4-I2-G4
+[01:51] SR pays out ¥120 = ¥12 per share (¥72 to Azcanta, ¥12 to …ᘛ⁐̤ᕐᐷ)
+[01:51] SR's share price moves right from ¥70 to ¥75
+[01:51] SR passes buy trains
+[01:51] SR skips buy companies
+[01:51] Primus operates UR
+[01:52] UR lays tile #9 with rotation 0 on B5
+[01:52] UR places a token on C4 (Ohzu)  for ¥40
+[01:52] UR skips run routes
+[01:52] UR does not run
+[01:52] UR's share price moves left from ¥70 to ¥65
+[01:53] UR buys a 4 train for ¥300 from The Depot
+[01:53] UR passes buy trains
+[01:53] UR skips buy companies
+[01:53] Azcanta operates IR
+[01:54] IR lays tile #7 with rotation 4 on D3
+[01:54] IR skips place a token
+[01:54] IR runs a 4 train for ¥150: I4-I2-G4-F3
+[01:54] IR runs a 3 train for ¥90: F1-E2-F3
+[01:54] IR withholds ¥240
+[01:54] IR's share price moves left from ¥60 to ¥55
+[01:54] IR buys a 5 train for ¥450 from The Depot
+[01:54] -- Phase 5 (Operating Rounds: 3 | Train Limit: 2 | Available Tiles: Yellow, Green, Brown) --
+[01:54] -- Event: Private companies close --
+[01:54] IR discards 3
+[01:54] KO discards 3
+[01:54] IR skips buy companies
+[01:54] RobinEatingWorm operates KO
+[01:55] KO lays tile #Beg24 with rotation 3 on K6
+[01:55] KO skips place a token
+[01:55] KO runs a 4 train for ¥130: K4-J5-I4-I2
+[01:55] KO runs a 3 train for ¥110: L7-K4-J1
+[01:55] KO withholds ¥240
+[01:55] KO's share price moves down from ¥20 to ¥10
+[01:55] KO skips buy trains
+[01:55] KO skips buy companies
+[01:55] -- Operating Round 6.2 (of 2) --
+[01:55] Primus operates TR
+[01:56] TR lays tile #611 with rotation 3 on H7 (Ikeda)
+[01:56] TR skips place a token
+[01:56] TR runs a 4 train for ¥100: H7-F9-G10-G12
+[01:56] TR runs a 3 train for ¥70: H7-J9-J11
+[01:56] TR withholds ¥170
+[01:56] TR's share price moves left from ¥100 to ¥90
+[01:56] TR skips buy trains
+[01:56] TR skips buy companies
+[01:56] Azcanta operates SR
+[01:57] SR lays tile #448 with rotation 4 on I2 (Marugame)
+[01:57] SR skips place a token
+[01:57] SR runs a 3 train for ¥140: J1-I2-I4
+[01:57] SR pays out ¥140 = ¥14 per share (¥84 to Azcanta, ¥14 to …ᘛ⁐̤ᕐᐷ)
+[01:57] SR's share price moves right from ¥75 to ¥80
+[01:57] SR buys a 5 train for ¥390 from IR
+[01:57] SR skips buy companies
+[01:57] Primus operates UR
+[01:58] UR lays tile #Beg8 with rotation 0 on C8
+[01:58] UR skips place a token
+[01:58] UR runs a 4 train for ¥80: B7-B3-C4
+[01:58] UR withholds ¥80
+[01:58] UR's share price moves left from ¥65 to ¥60
+[01:59] UR passes buy trains
+[01:59] UR skips buy companies
+[01:59] Azcanta operates IR
+[02:00] IR spends ¥80 and lays tile #7 with rotation 3 on H5
+[02:00] IR skips place a token
+[02:00] IR runs a 4 train for ¥160: I4-I2-G4-F3
+[02:00] IR withholds ¥160
+[02:00] IR's share price moves left from ¥55 to ¥50
+[02:00] IR buys a 5 train for ¥450 from The Depot
+[02:00] IR skips buy companies
+[02:00] RobinEatingWorm operates KO
+[02:03] KO lays tile #5 with rotation 3 on K8 (Tokushima)
+[02:03] KO skips place a token
+[02:03] KO runs a 4 train for ¥140: K4-J5-I4-I2
+[02:03] KO runs a 3 train for ¥110: L7-K4-J1
+[02:03] KO withholds ¥250
+[02:03] KO skips buy trains
+[02:03] KO skips buy companies
+[02:03] -- Stock Round 7 --
+[02:03] Azcanta buys a 10% share of IR from the market for ¥50
+[02:03] Azcanta declines to sell shares
+[02:03] RobinEatingWorm passes
+[02:03] …ᘛ⁐̤ᕐᐷ buys a 10% share of UR from the IPO for ¥70
+[02:04] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[02:04] Primus passes
+[02:04] Azcanta buys a 10% share of IR from the market for ¥50
+[02:04] Azcanta declines to sell shares
+[02:04] RobinEatingWorm passes
+[02:04] …ᘛ⁐̤ᕐᐷ buys a 10% share of UR from the IPO for ¥70
+[02:04] …ᘛ⁐̤ᕐᐷ becomes the president of UR
+[02:04] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[02:05] Primus buys a 10% share of SR from the IPO for ¥70
+[02:05] Primus declines to sell shares
+[02:05] Azcanta passes
+[02:05] RobinEatingWorm passes
+[02:06] …ᘛ⁐̤ᕐᐷ passes
+[02:07] Primus passes
+[02:07] TR's share price moves up from ¥90 to ¥100
+[02:07] KO's share price moves up from ¥10 to ¥20
+[02:07] Azcanta has priority deal
+[02:07] -- Operating Round 7.1 (of 3) --
+[02:07] Primus operates TR
+[02:07] TR spends ¥80 and lays tile #8 with rotation 1 on I6
+[02:07] TR skips place a token
+[02:07] TR runs a 4 train for ¥100: H7-F9-G10-G12
+[02:07] TR runs a 3 train for ¥70: H7-J9-J11
+[02:07] TR withholds ¥170
+[02:07] TR's share price moves left from ¥100 to ¥90
+[02:07] TR skips buy trains
+[02:07] TR skips buy companies
+[02:07] Azcanta operates SR
+[02:07] SR lays tile #611 with rotation 4 on G4 (Niihama)
+[02:07] SR skips place a token
+[02:07] SR runs a 5 train for ¥230: F1-F3-G4-I2-I4
+[02:07] SR runs a 3 train for ¥110: J1-I2-K4
+[02:07] SR pays out ¥340 = ¥34 per share (¥204 to Azcanta, ¥34 to …ᘛ⁐̤ᕐᐷ, ¥34 to Primus)
+[02:07] SR's share price moves right from ¥80 to ¥90
+[02:07] SR skips buy trains
+[02:07] SR skips buy companies
+[02:07] …ᘛ⁐̤ᕐᐷ operates UR
+[02:08] UR lays tile #Beg6 with rotation 1 on C10 (Kubokawa)
+[02:08] UR skips place a token
+[02:08] UR runs a 4 train for ¥100: C4-B3-B7-C10
+[02:09] UR withholds ¥100
+[02:09] UR's share price moves left from ¥60 to ¥55
+[02:09] UR passes buy trains
+[02:09] UR skips buy companies
+[02:09] Azcanta operates IR
+[02:10] IR lays tile #448 with rotation 4 on E2 (Matsuyama)
+[02:10] IR skips place a token
+[02:10] IR runs a 5 train for ¥230: F1-F3-G4-I2-I4
+[02:10] IR runs a 4 train for ¥130: F1-E2-F3
+[02:10] IR withholds ¥360
+[02:10] IR's share price moves left from ¥50 to ¥45
+[02:10] IR skips buy trains
+[02:10] IR skips buy companies
+[02:10] RobinEatingWorm operates KO
+[02:11] KO lays tile #28 with rotation 4 on H5
+[02:11] KO skips place a token
+[02:11] KO runs a 4 train for ¥190: I4-G4-F3-F1
+[02:11] KO runs a 3 train for ¥110: I2-I4-J5
+[02:11] KO withholds ¥300
+[02:11] KO's share price moves down from ¥20 to ¥10
+[02:11] KO skips buy trains
+[02:11] KO skips buy companies
+[02:11] -- Operating Round 7.2 (of 3) --
+[02:11] Azcanta operates SR
+[02:12] SR lays tile #39 with rotation 2 on H5
+[02:12] SR skips place a token
+[02:12] SR runs a 5 train for ¥230: F1-E2-F3-G4-I4
+[02:12] SR runs a 3 train for ¥140: I4-I2-G4
+[02:12] SR pays out ¥370 = ¥37 per share (¥222 to Azcanta, ¥37 to …ᘛ⁐̤ᕐᐷ, ¥37 to Primus)
+[02:12] SR's share price moves right from ¥90 to ¥100
+[02:12] SR skips buy trains
+[02:12] SR skips buy companies
+[02:12] Primus operates TR
+[02:13] TR spends ¥80 and lays tile #492 with rotation 0 on I4 (Kotohira)
+[02:13] TR skips place a token
+[02:14] TR runs a 4 train for ¥200: H7-I4-G4-I2
+[02:14] TR runs a 3 train for ¥80: F9-H7-J9
+[02:14] TR withholds ¥280
+[02:14] TR's share price moves left from ¥90 to ¥80
+[02:14] TR skips buy trains
+[02:14] TR skips buy companies
+[02:14] …ᘛ⁐̤ᕐᐷ operates UR
+[02:15] UR lays tile #23 with rotation 2 on C8
+[02:15] UR skips place a token
+[02:15] UR runs a 4 train for ¥100: C4-B3-B7-C10
+[02:18] UR withholds ¥100
+[02:18] UR's share price moves down from ¥55 to ¥50
+[02:18] UR passes buy trains
+[02:18] UR skips buy companies
+[02:18] Azcanta operates IR
+[02:18] IR lays tile #440 with rotation 0 on K4 (Takamatsu)
+[02:18] IR skips place a token
+[02:18] IR runs a 5 train for ¥250: F1-E2-F3-G4-I4
+[02:18] IR runs a 4 train for ¥200: H7-I4-I2-K4
+[02:19] IR withholds ¥450
+[02:19] IR's share price moves down from ¥45 to ¥40
+[02:19] IR skips buy trains
+[02:19] IR skips buy companies
+[02:19] RobinEatingWorm operates KO
+[02:20] KO lays tile #466 with rotation 0 on K4 (Takamatsu)
+[02:20] KO skips place a token
+[02:20] KO runs a 4 train for ¥210: I4-G4-F3-F1
+[02:20] KO runs a 3 train for ¥160: H7-I4-I2
+[02:20] KO withholds ¥370
+[02:20] KO skips buy trains
+[02:20] KO skips buy companies
+[02:20] -- Operating Round 7.3 (of 3) --
+[02:20] Azcanta operates SR
+[02:20] SR lays tile #Beg23 with rotation 1 on H3
+[02:20] SR skips place a token
+[02:20] SR runs a 3 train for ¥180: I4-I2-K4
+[02:20] SR runs a 5 train for ¥250: F1-E2-F3-G4-I4
+[02:20] SR pays out ¥430 = ¥43 per share (¥258 to Azcanta, ¥43 to …ᘛ⁐̤ᕐᐷ, ¥43 to Primus)
+[02:20] SR's share price moves up from ¥100 to ¥110
+[02:20] SR skips buy trains
+[02:20] SR skips buy companies
+[02:20] Primus operates TR
+[02:24] TR lays tile #8 with rotation 5 on E8
+[02:24] TR skips place a token
+[02:24] TR runs a 4 train for ¥200: H7-I4-G4-I2
+[02:24] TR runs a 3 train for ¥80: F9-H7-J9
+[02:24] TR pays out ¥280 = ¥28 per share (¥140 to …ᘛ⁐̤ᕐᐷ, ¥140 to Primus)
+[02:24] TR's share price moves right from ¥80 to ¥90
+[02:24] TR skips buy trains
+[02:24] TR skips buy companies
+[02:24] …ᘛ⁐̤ᕐᐷ operates UR
+[02:24] UR lays tile #8 with rotation 2 on D9
+[02:26] UR places a token on H7 (Ikeda)  for ¥40
+[02:26] UR runs a 4 train for ¥200: H7-I4-G4-I2
+[02:26] UR pays out ¥200 = ¥20 per share (¥80 to …ᘛ⁐̤ᕐᐷ, ¥60 to Primus)
+[02:26] UR's share price moves right from ¥50 to ¥55
+[02:27] UR passes buy trains
+[02:27] UR skips buy companies
+[02:27] Azcanta operates IR
+[02:27] IR lays tile #206 with rotation 4 on K8 (Tokushima)
+[02:27] IR skips place a token
+[02:27] IR runs a 5 train for ¥250: F1-E2-F3-G4-I4
+[02:27] IR runs a 4 train for ¥220: K4-I2-I4-G4
+[02:27] IR withholds ¥470
+[02:27] IR's share price moves down from ¥40 to ¥30
+[02:27] IR skips buy trains
+[02:27] IR skips buy companies
+[02:27] RobinEatingWorm operates KO
+[02:27] KO spends ¥80 and lays tile #9 with rotation 0 on G6
+[02:27] KO skips place a token
+[02:27] KO runs a 3 train for ¥160: G4-I4-I2
+[02:27] KO runs a 4 train for ¥210: I4-G4-F3-F1
+[02:27] KO withholds ¥370
+[02:27] KO skips buy trains
+[02:27] KO skips buy companies
+[02:27] -- Stock Round 8 --
+[02:28] Azcanta pars AR at ¥100
+[02:28] Azcanta buys a 20% share of AR from the IPO for ¥200
+[02:28] Azcanta becomes the president of AR
+[02:28] Azcanta declines to sell shares
+[02:28] RobinEatingWorm passes
+[02:36] …ᘛ⁐̤ᕐᐷ buys a 10% share of UR from the IPO for ¥70
+[02:36] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[02:38] Primus buys a 10% share of UR from the IPO for ¥70
+[02:38] Primus declines to sell shares
+[02:39] Azcanta buys a 10% share of IR from the IPO for ¥65
+[02:39] Azcanta declines to sell shares
+[02:39] RobinEatingWorm passes
+[02:57] …ᘛ⁐̤ᕐᐷ buys a 10% share of UR from the IPO for ¥70
+[02:57] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[02:57] Primus pars KU at ¥90
+[02:57] Primus buys a 20% share of KU from the IPO for ¥180
+[02:57] Primus becomes the president of KU
+[02:57] Primus declines to sell shares
+[02:58] Azcanta buys a 10% share of IR from the IPO for ¥65
+[02:58] Azcanta declines to sell shares
+[02:58] RobinEatingWorm passes
+[03:02] …ᘛ⁐̤ᕐᐷ buys a 10% share of KU from the IPO for ¥90
+[03:02] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[03:02] Primus buys a 10% share of KU from the IPO for ¥90
+[03:02] Primus declines to sell shares
+[03:03] Azcanta buys a 10% share of AR from the IPO for ¥100
+[03:03] Azcanta declines to sell shares
+[03:03] RobinEatingWorm passes
+[03:04] …ᘛ⁐̤ᕐᐷ buys a 10% share of KU from the IPO for ¥90
+[03:04] KU floats
+[03:04] KU receives ¥900
+[03:04] …ᘛ⁐̤ᕐᐷ declines to sell shares
+[03:04] Primus passes
+[03:04] Azcanta buys a 10% share of AR from the IPO for ¥100
+[03:04] Azcanta declines to sell shares
+[03:04] RobinEatingWorm passes
+[03:09] …ᘛ⁐̤ᕐᐷ passes
+[03:09] Primus passes
+[03:11] Azcanta buys a 10% share of KU from the IPO for ¥90
+[03:11] Azcanta declines to sell shares
+[03:11] RobinEatingWorm passes
+[03:11] …ᘛ⁐̤ᕐᐷ passes
+[03:13] Primus passes
+[03:13] Azcanta buys a 10% share of KU from the IPO for ¥90
+[03:13] Azcanta declines to sell shares
+[03:13] RobinEatingWorm passes
+[03:13] …ᘛ⁐̤ᕐᐷ passes
+[03:13] Primus passes
+[03:13] Azcanta buys a 10% share of KU from the IPO for ¥90
+[03:13] Azcanta sells 3 shares of KU and receives ¥270
+[03:13] KU's share price moves down from ¥90 to ¥70
+[03:14] RobinEatingWorm passes
+[03:18] …ᘛ⁐̤ᕐᐷ passes
+[03:31] Primus passes
+[03:33] Azcanta buys a 10% share of AR from the IPO for ¥100
+[03:33] AR floats
+[03:33] AR receives ¥1000
+[03:33] Azcanta declines to sell shares
+[03:33] RobinEatingWorm passes
+[03:33] …ᘛ⁐̤ᕐᐷ passes
+[03:33] Primus passes
+[03:33] Azcanta buys a 10% share of AR from the IPO for ¥100
+[03:33] Azcanta declines to sell shares
+[03:33] RobinEatingWorm passes
+[03:33] …ᘛ⁐̤ᕐᐷ passes
+[03:33] Primus passes
+[03:34] Azcanta passes
+[03:34] TR's share price moves up from ¥90 to ¥100
+[03:34] UR's share price moves up from ¥55 to ¥60
+[03:34] IR's share price moves up from ¥30 to ¥40
+[03:34] KO's share price moves up from ¥10 to ¥20
+[03:34] RobinEatingWorm has priority deal
+[03:34] -- Operating Round 8.1 (of 3) --
+[03:34] AR places a token on K8
+[03:34] KU places a token on C10
+[03:34] Azcanta operates SR
+[03:34] SR lays tile #24 with rotation 1 on G8
+[03:34] SR skips place a token
+[03:34] SR runs a 5 train for ¥250: F1-E2-F3-G4-I4
+[03:34] SR runs a 3 train for ¥180: I4-I2-K4
+[03:34] -- The bank has broken --
+[03:34] SR pays out ¥430 = ¥43 per share (¥258 to Azcanta, ¥43 to …ᘛ⁐̤ᕐᐷ, ¥43 to Primus)
+[03:34] SR's share price moves right from ¥110 to ¥125
+[03:34] SR skips buy trains
+[03:34] SR skips buy companies
+[03:34] Primus operates TR
+[03:54] TR spends ¥80 and lays tile #465 with rotation 2 on F9 (Kouchi)
+[03:54] TR skips place a token
+[03:54] TR runs a 4 train for ¥220: I4-G4-F9-B7
+[03:54] TR runs a 3 train for ¥160: H7-I4-I2
+[03:55] TR pays out ¥380 = ¥38 per share (¥190 to …ᘛ⁐̤ᕐᐷ, ¥190 to Primus)
+[03:55] TR's share price moves right from ¥100 to ¥110
+[03:55] TR skips buy trains
+[03:55] TR skips buy companies
+[03:55] Azcanta operates AR
+[03:56] AR lays tile #27 with rotation 4 on D3
+[03:56] AR places a token on F9 (Kouchi)  for ¥40
+[03:56] AR skips run routes
+[03:56] AR does not run
+[03:56] AR's share price moves left from ¥100 to ¥90
+[03:56] AR buys a 5 train for ¥450 from The Depot
+[03:56] AR passes buy trains
+[03:56] AR skips buy companies
+[03:56] Primus operates KU
+[03:59] KU lays tile #41 with rotation 5 on C8
+[03:59] KU skips place a token
+[03:59] KU skips run routes
+[03:59] KU does not run
+[03:59] KU's share price moves left from ¥70 to ¥65
+[03:59] KU buys a 3 train for ¥1 from TR
+[04:00] KU buys a 6 train for ¥630 from The Depot
+[04:00] -- Phase 6 (Operating Rounds: 3 | Train Limit: 2 | Available Tiles: Yellow, Green, Brown) --
+[04:00] -- Event: 3 trains rust (The Depot x2, KU x1, KO x1, SR x1) --
+[04:00] KU passes buy trains
+[04:00] KU skips buy companies
+[04:00] …ᘛ⁐̤ᕐᐷ operates UR
+[04:04] UR lays tile #205 with rotation 1 on C4 (Ohzu)
+[04:04] UR skips place a token
+[04:04] UR runs a 4 train for ¥220: F9-H7-I4-I2
+[04:06] UR withholds ¥220
+[04:06] UR's share price moves left from ¥60 to ¥55
+[04:07] UR buys a 6 train for ¥630 from The Depot
+[04:07] UR skips buy companies
+[04:07] Azcanta operates IR
+[04:13] IR lays tile #448 with rotation 1 on K8 (Tokushima)
+[04:13] IR skips place a token
+[04:13] IR runs a 4 train for ¥190: E2-F3-G4-I4
+[04:13] IR runs a 5 train for ¥280: K4-I2-I4-G4-F9
+[04:13] IR pays out ¥470 = ¥47 per share (¥376 to Azcanta, ¥47 to …ᘛ⁐̤ᕐᐷ, ¥47 to Primus)
+[04:13] IR's share price moves right from ¥40 to ¥45
+[04:13] IR exchanges a 4 for a D train for ¥800 from The Depot
+[04:13] -- Phase D (Operating Rounds: 3 | Train Limit: 2 | Available Tiles: Yellow, Green, Brown) --
+[04:13] -- Event: 4 trains rust (The Depot x1, KO x1, TR x1, UR x1) --
+[04:13] IR skips buy companies
+[04:13] RobinEatingWorm operates KO
+[04:13] KO lays tile #24 with rotation 2 on I8
+[04:13] KO skips place a token
+[04:13] KO skips run routes
+[04:13] KO does not run
+[04:13] KO's share price moves down from ¥20 to ¥10
+[04:13] KO buys a D train for ¥1100 from The Depot
+[04:14] KO passes buy trains
+[04:14] KO skips buy companies
+[04:14] -- Operating Round 8.2 (of 3) --
+[04:14] Azcanta operates SR
+[04:14] SR lays tile #15 with rotation 1 on C10 (Kubokawa)
+[04:14] SR skips place a token
+[04:14] SR runs a 5 train for ¥280: K4-I2-I4-G4-F9
+[04:14] SR pays out ¥280 = ¥28 per share (¥168 to Azcanta, ¥28 to …ᘛ⁐̤ᕐᐷ, ¥28 to Primus)
+[04:14] SR's share price moves right from ¥125 to ¥140
+[04:15] SR passes buy trains
+[04:15] SR skips buy companies
+[04:15] Primus operates TR
+[04:29] TR lays tile #23 with rotation 0 on B5
+[04:29] TR skips place a token
+[04:29] TR skips run routes
+[04:29] TR does not run
+[04:29] TR's share price moves left from ¥110 to ¥100
+[04:31] Primus sells a 10% share of SR and receives ¥140
+[04:31] Primus sells a 10% share of KO and receives ¥10
+[04:31] Primus sells 2 shares of UR and receives ¥110
+[04:31] UR's share price moves down from ¥55 to ¥45
+[04:31] Primus contributes ¥577
+[04:31] TR buys a D train for ¥1100 from The Depot
+[04:31] TR skips buy companies
+[04:31] Azcanta operates AR
+[04:33] AR lays tile #15 with rotation 3 on G12 (Nahari)
+[04:33] AR skips place a token
+[04:33] AR runs a 5 train for ¥260: I2-I4-G4-F9-B7
+[04:33] AR pays out ¥260 = ¥26 per share (¥156 to Azcanta)
+[04:33] AR's share price moves right from ¥90 to ¥100
+[04:33] AR passes buy trains
+[04:33] AR skips buy companies
+[04:33] Primus operates KU
+[04:59] KU lays tile #448 with rotation 1 on C10 (Kubokawa)
+[04:59] KU skips place a token
+[04:59] KU runs a 6 train for ¥290: C10-F9-G4-I4-J5-K4
+[04:59] KU pays out ¥290 = ¥29 per share (¥87 to Primus, ¥87 to KU, ¥58 to …ᘛ⁐̤ᕐᐷ)
+[04:59] KU's share price moves right from ¥65 to ¥70
+[04:59] KU passes buy trains
+[04:59] KU skips buy companies
+[04:59] Azcanta operates IR
+[05:01] IR lays tile #42 with rotation 5 on I8
+[05:01] IR skips place a token
+[05:01] IR runs a D train for ¥480: F1-E2-F3-G4-I4-J5-K4-K8-L7
+[05:01] IR runs a 5 train for ¥280: K4-I2-I4-G4-F9
+[05:01] IR pays out ¥760 = ¥76 per share (¥608 to Azcanta, ¥76 to …ᘛ⁐̤ᕐᐷ, ¥76 to Primus)
+[05:01] IR's share price moves right from ¥45 to ¥50
+[05:01] IR skips buy trains
+[05:01] IR skips buy companies
+[05:01] …ᘛ⁐̤ᕐᐷ operates UR
+[13:36] UR lays tile #3 with rotation 3 on B11 (Nakamura)
+[13:36] UR skips place a token
+[13:36] UR runs a 6 train for ¥320: F9-G4-I4-H7-K8-K4
+[13:37] UR pays out ¥320 = ¥32 per share (¥192 to …ᘛ⁐̤ᕐᐷ, ¥64 to Primus, ¥64 to UR)
+[13:37] UR's share price moves right from ¥45 to ¥50
+[13:37] UR passes buy trains
+[13:37] UR skips buy companies
+[13:37] RobinEatingWorm operates KO
+[13:38] KO lays tile #45 with rotation 5 on J3
+[13:38] KO skips place a token
+[13:38] KO runs a D train for ¥480: F1-E2-F3-G4-I4-J5-K4-K8-L7
+[13:38] KO withholds ¥480
+[13:38] KO buys a D train for ¥1100 from The Depot
+[13:38] KO skips buy companies
+[13:38] -- Operating Round 8.3 (of 3) --
+[13:38] Azcanta operates SR
+[14:07] SR lays tile #3 with rotation 3 on I12 (Muki)
+[14:07] SR skips place a token
+[14:07] SR runs a 5 train for ¥280: K4-I2-I4-G4-F9
+[14:07] SR pays out ¥280 = ¥28 per share (¥168 to Azcanta, ¥28 to …ᘛ⁐̤ᕐᐷ, ¥28 to SR)
+[14:07] SR's share price moves up from ¥140 to ¥155
+[14:07] SR passes buy trains
+[14:07] SR skips buy companies
+[14:07] Primus operates TR
+[14:09] TR passes lay/upgrade track
+[14:09] TR skips place a token
+[14:09] TR runs a D train for ¥590: F1-E2-F3-G4-I4-J5-K4-K8-H7-F9-B7-B3-C4
+[14:09] TR pays out ¥590 = ¥59 per share (¥295 to …ᘛ⁐̤ᕐᐷ, ¥295 to Primus)
+[14:09] TR's share price moves right from ¥100 to ¥110
+[14:09] TR skips buy trains
+[14:09] TR skips buy companies
+[14:09] Azcanta operates AR
+[14:09] AR spends ¥80 and lays tile #Beg9 with rotation 1 on H11
+[14:09] AR skips place a token
+[14:09] AR runs a 5 train for ¥260: I2-I4-G4-F9-C10
+[14:09] AR pays out ¥260 = ¥26 per share (¥156 to Azcanta)
+[14:09] AR's share price moves right from ¥100 to ¥110
+[14:09] AR passes buy trains
+[14:09] AR skips buy companies
+[14:09] Primus operates KU
+[14:29] KU passes lay/upgrade track
+[14:29] KU skips place a token
+[14:29] KU runs a 6 train for ¥290: C10-F9-G4-I4-J5-K4
+[14:29] KU withholds ¥290
+[14:29] KU's share price moves left from ¥70 to ¥65
+[14:29] KU passes buy trains
+[14:29] KU skips buy companies
+[14:29] Azcanta operates IR
+[14:37] IR lays tile #Beg7 with rotation 0 on I10
+[14:37] IR skips place a token
+[14:37] IR runs a D train for ¥670: F1-E2-F3-G4-I2-I4-J5-K4-K8-J9-J11-I12-G12-G10-F9-B7-B3-C4
+[14:37] IR runs a 5 train for ¥260: J1-I2-I4-G4-F9
+[14:37] IR pays out ¥930 = ¥93 per share (¥744 to Azcanta, ¥93 to …ᘛ⁐̤ᕐᐷ, ¥93 to Primus)
+[14:37] IR's share price moves right from ¥50 to ¥55
+[14:37] IR skips buy trains
+[14:37] IR skips buy companies
+[14:37] …ᘛ⁐̤ᕐᐷ operates UR
+[15:21] UR lays tile #23 with rotation 4 on D9
+[15:21] UR skips place a token
+[15:22] UR runs a 6 train for ¥320: F9-G4-I4-H7-K8-K4
+[15:23] UR withholds ¥320
+[15:23] UR's share price moves left from ¥50 to ¥45
+[15:54] UR passes buy trains
+[15:54] UR skips buy companies
+[15:54] RobinEatingWorm operates KO
+[15:55] KO lays tile #46 with rotation 1 on G8
+[15:55] KO skips place a token
+[15:55] KO runs a D train for ¥670: F1-E2-F3-G4-I4-J5-K4-K8-J9-J11-I12-G12-G10-F9-C10-B7-B3-C4
+[15:55] KO runs a D train for ¥260: J1-I4-G4-F9
+[15:56] KO withholds ¥930
+[15:56] KO skips buy trains
+[15:56] KO skips buy companies
+[15:56] -- Game over: Azcanta (¥4780), …ᘛ⁐̤ᕐᐷ (¥2266), Primus (¥1513), RobinEatingWorm (¥145) --
