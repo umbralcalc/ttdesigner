@@ -1,0 +1,190 @@
+## Slow rust variant.
+##
+## Trains rust one generation later: 2-trains survive until the 5-train,
+## 3-trains survive until the D-train, and 4-trains never rust. This extends
+## the useful life of early purchases, giving smaller companies more runway
+## before they face a mandatory train buy. Should reduce receivership rates
+## and potentially increase game length.
+
+title: "1889 — Slow Rust"
+bank_size: 7000
+currency_fmt: "¥%d"
+min_players: 2
+max_players: 6
+must_sell_in_blocks: true
+
+starting_cash:
+  2: 420
+  3: 420
+  4: 420
+  5: 390
+  6: 390
+
+cert_limits:
+  2: 25
+  3: 19
+  4: 14
+  5: 12
+  6: 11
+
+companies:
+  - id: 0
+    sym: AR
+    name: Awa Railroad
+    homehex: K8
+    tokencosts: [0, 40]
+    color: "#37383a"
+    floatpct: 50
+  - id: 1
+    sym: IR
+    name: Iyo Railway
+    homehex: E2
+    tokencosts: [0, 40]
+    color: "#f48221"
+    floatpct: 50
+  - id: 2
+    sym: SR
+    name: Sanuki Railway
+    homehex: I2
+    tokencosts: [0, 40]
+    color: "#76a042"
+    floatpct: 50
+  - id: 3
+    sym: KO
+    name: Takamatsu & Kotohira Electric Railway
+    homehex: K4
+    tokencosts: [0, 40]
+    color: "#d81e3e"
+    floatpct: 50
+  - id: 4
+    sym: TR
+    name: Tosa Electric Railway
+    homehex: F9
+    tokencosts: [0, 40, 40]
+    color: "#00a993"
+    floatpct: 50
+  - id: 5
+    sym: KU
+    name: Tosa Kuroshio Railway
+    homehex: C10
+    tokencosts: [0]
+    color: "#0189d1"
+    floatpct: 50
+  - id: 6
+    sym: UR
+    name: Uwajima Railway
+    homehex: B7
+    tokencosts: [0, 40, 40]
+    color: "#6f533e"
+    floatpct: 50
+
+privates:
+  - id: 0
+    sym: TER
+    name: Takamatsu E-Railroad
+    value: 20
+    revenue: 5
+    abilities: "Blocks Takamatsu (K4) while owned by a player."
+    blockshex: K4
+  - id: 1
+    sym: MF
+    name: Mitsubishi Ferry
+    value: 30
+    revenue: 5
+    abilities: "Player owner may place port tile."
+  - id: 2
+    sym: ER
+    name: Ehime Railway
+    value: 40
+    revenue: 10
+    abilities: "When sold to a corporation, may place green tile on Ohzu (C4)."
+    blockshex: C4
+  - id: 3
+    sym: SMR
+    name: Sumitomo Mines Railway
+    value: 50
+    revenue: 15
+    abilities: "Owning corporation may ignore mountain hex building cost."
+  - id: 4
+    sym: DR
+    name: Dougo Railway
+    value: 60
+    revenue: 15
+    abilities: "Owning player may exchange for a 10% share of IR from IPO."
+  - id: 5
+    sym: SIR
+    name: South Iyo Railway
+    value: 80
+    revenue: 20
+    minplayers: 3
+  - id: 6
+    sym: UTF
+    name: Uno-Takamatsu Ferry
+    value: 150
+    revenue: 30
+    abilities: "Revenue increases to 50 when first 5-train purchased."
+    minplayers: 4
+
+trains:
+  - name: "2"
+    distance: 2
+    price: 80
+    quantity: 6
+    rustson: "5"        # was "4" — survives one extra generation
+  - name: "3"
+    distance: 3
+    price: 180
+    quantity: 5
+    rustson: D           # was "6" — survives one extra generation
+  - name: "4"
+    distance: 4
+    price: 300
+    quantity: 4
+                         # was rustson: D — 4-trains never rust now
+  - name: "5"
+    distance: 5
+    price: 450
+    quantity: 3
+    events: [close_companies]
+  - name: "6"
+    distance: 6
+    price: 630
+    quantity: 2
+  - name: D
+    distance: -1
+    price: 1100
+    quantity: -1
+    discount: 300
+
+phases:
+  - name: "2"
+    tilesavailable: [yellow]
+    trainlimit: 4
+    orspersr: 1
+  - name: "3"
+    triggertrain: "3"
+    tilesavailable: [yellow, green]
+    trainlimit: 4
+    orspersr: 2
+    canbuyprivates: true
+  - name: "4"
+    triggertrain: "4"
+    tilesavailable: [yellow, green]
+    trainlimit: 3
+    orspersr: 2
+    canbuyprivates: true
+  - name: "5"
+    triggertrain: "5"
+    tilesavailable: [yellow, green, brown]
+    trainlimit: 2
+    orspersr: 3
+  - name: "6"
+    triggertrain: "6"
+    tilesavailable: [yellow, green, brown]
+    trainlimit: 2
+    orspersr: 3
+  - name: D
+    triggertrain: D
+    tilesavailable: [yellow, green, brown]
+    trainlimit: 2
+    orspersr: 3

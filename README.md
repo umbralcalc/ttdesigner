@@ -1,159 +1,173 @@
-# 18xxdesigner: 1889 Board Game Balance Auditor
+# 18xxdesigner
 
-A simulation-based balance auditor for the 18xx train game **1889** (Shikoku), built on the [stochadex](https://github.com/umbralcalc/stochadex) SDK. The goal is to model the full game as a set of stochadex partitions, run thousands of games with AI agents, and produce balance reports that tell a game designer whether rule/parameter changes improve or degrade the game.
+A simulation-based balance auditor for the 18xx train game **1889: History of Shikoku Railways**, built on the [stochadex](https://github.com/umbralcalc/stochadex) simulation SDK.
 
----
-
-## Core Architecture Decision
-
-**One simulation step = one game action.** The stochadex coordinator runs all partitions in parallel each tick, but 1889 is strictly sequential. We reconcile this by using `params_from_upstream` wiring to create a dependency chain: `turn → action → all state partitions`. The coordinator's channel-based blocking ensures sequential execution within each step. Parallelism benefits come at the MCTS layer (many independent game simulations).
+Run thousands of games with AI agents, then inspect Markdown reports covering wealth distribution, company viability, map utilisation, and more. Tweak game parameters in YAML and compare variants side-by-side to see what changes actually do to balance.
 
 ---
 
-## Package Structure
+## Quick Start
+
+```bash
+go build ./...
+go run ./cmd/18xxdesigner run --players 4 --sims 100
+```
+
+This runs 100 four-player games with heuristic agents and prints a balance report to stdout.
+
+---
+
+## CLI
+
+### `run` — batch simulation
+
+```bash
+18xxdesigner run [flags]
+```
+
+| Flag | Default | Description |
+|------|---------|-------------|
+| `-players` | 4 | Number of players (2–6) |
+| `-sims` | 100 | Number of games to simulate |
+| `-max-steps` | 5000 | Step limit per game |
+| `-mcts` | false | Use MCTS agent for player 0 |
+| `-mcts-playouts` | 5 | Playouts per MCTS decision |
+| `-output` | stdout | Write report to file |
+
+### `compare` — variant comparison
+
+```bash
+18xxdesigner compare --variant tweaked.yaml [flags]
+```
+
+Runs the baseline 1889 config and a YAML variant, then produces a side-by-side report with deltas for game length, Gini coefficient, comeback rate, and per-company float rates.
+
+| Flag | Default | Description |
+|------|---------|-------------|
+| `-players` | 4 | Number of players |
+| `-sims` | 50 | Simulations per config |
+| `-max-steps` | 5000 | Step limit per game |
+| `-variant` | | Path to variant YAML config |
+| `-output` | stdout | Write report to file |
+
+### `replay` — transcript playback
+
+```bash
+18xxdesigner replay --transcript game.log
+```
+
+Replays an [18xx.games](https://18xx.games) JSON game log move-by-move through the engine, printing final state and any rule mismatches.
+
+---
+
+## Report Metrics
+
+Reports include:
+
+- **Game length** — mean, std dev, min, max steps
+- **Gini coefficient** — wealth inequality across players (0 = equal, 1 = monopoly)
+- **Win distribution** — per-player win count and win rate
+- **Portfolio values** — mean and std dev of final cash + share holdings per player
+- **Comeback rate** — % of games where the first-mover did not win
+- **Company statistics** — float rate, survival rate, mean revenue per company
+- **Hex utilisation** — % of games each hex received a tile upgrade
+
+---
+
+## Variant Configs
+
+The `cfg/` directory contains example variants you can use with `compare`:
+
+| Config | What it tweaks | Expected effect |
+|--------|---------------|-----------------|
+| `cfg/baseline.yaml` | Nothing — reference copy of default 1889 | Use as a template for new variants |
+| `cfg/cheap_trains.yaml` | All train prices reduced ~25% | Faster phase transitions, shorter games, less punishment for late companies |
+| `cfg/rich_start.yaml` | +50% starting cash, bank 10000, higher cert limits | More companies float, bigger portfolios |
+| `cfg/slow_rust.yaml` | Trains rust one generation later (2→5, 3→D, 4→never) | Longer useful train life, less receivership |
+
+Try one out:
+
+```bash
+go run ./cmd/18xxdesigner compare --variant cfg/cheap_trains.yaml --sims 50
+go run ./cmd/18xxdesigner compare --variant cfg/slow_rust.yaml --sims 100 --output report.md
+```
+
+To create your own variant, copy `cfg/baseline.yaml` and change the values you want to test. The config must be a complete `GameConfig` — see the baseline for all required fields.
+
+---
+
+## Architecture
+
+The game engine is built as a set of [stochadex](https://github.com/umbralcalc/stochadex) partitions. One simulation step = one game action. Partitions are wired via `params_from_upstream` into a dependency chain:
+
+```
+turn → action → { bank, market, map, company_0..6, player_0..N }
+```
+
+The stochadex coordinator's channel-based blocking ensures sequential execution within each step. Parallelism comes at the MCTS layer, where many independent game simulations run concurrently.
+
+### Partition layout (4-player game)
+
+| Partition | StateWidth | Contents |
+|-----------|-----------|----------|
+| `turn` | 8 | FSM: game phase, round type, active entity, action type |
+| `action` | 20 | Action vector from AI agent |
+| `bank` | ~30 | Cash pool, train/tile availability, phase tracking |
+| `market` | 14 | 7 companies × (row, col) on stock price grid |
+| `map` | 72 | 24 hexes × (tile ID, orientation, token bitfield) |
+| `company_0`..`6` | 16 each | Treasury, trains, tokens, par, president, revenue |
+| `player_0`..`3` | 18 each | Cash, shares held, privates, priority deal, cert count |
+
+### Packages
 
 ```
 pkg/
-  gamedata/        # Pure data types, constants, YAML config loader. No simulator dep.
-    companies.go   # CompanyDef, PrivateDef, TrainDef structs + 1889 defaults
-    map.go         # HexDef, adjacency graph, terrain/city types
-    tiles.go       # TileDef, track segments, upgrade paths, tile manifest
-    market.go      # MarketCell, stock market grid, movement functions
-    config.go      # GameConfig struct, YAML loader, validation
-  engine/          # Iteration implementations — the game engine
-    turn.go        # TurnControllerIteration — master FSM dispatcher
-    bank.go        # BankIteration — cash pool, train/tile/cert availability
-    market.go      # MarketIteration — share price positions
-    company.go     # CompanyIteration — per-company treasury/trains/tokens
-    player.go      # PlayerIteration — per-player cash/shares/privates
-    mapstate.go    # MapIteration — hex grid tile/token placements
-    action.go      # ActionIteration — action injection via agent
-    route.go       # Route-finding: track graph, enumeration, optimal assignment
-    legal.go       # Legal move generation (pure functions)
-    builder.go     # Wires partitions via ConfigGenerator → Settings+Implementations
-    game_test.go   # Full integration test replaying a known 1889 game
-  policy/          # AI agents
-    agent.go       # Agent interface
-    heuristic.go   # Rule-based fast playout agent
-    mcts.go        # MCTS tree search using parallel game simulations
-  analysis/        # Balance metrics and reporting
-    metrics.go     # Gini, game length, company survival, heatmap, comeback
-    runner.go      # Comparative simulation runner (baseline vs variant)
-    report.go      # Markdown report generator
+  gamedata/    Pure data: company/train/tile/market definitions, YAML config loader
+  engine/      Game engine: turn FSM, state partitions, legal moves, route finding
+  policy/      AI agents: heuristic (fast) and MCTS (strong)
+  analysis/    Batch runner, balance metrics, Markdown report generation
+  replay/      Transcript parser and replay agent for 18xx.games logs
 cmd/
-  18xxdesigner/
-    main.go        # CLI: run, compare, replay subcommands
+  18xxdesigner/  CLI entry point
 ```
 
 ---
 
-## Partition Layout (4-player game example)
+## AI Agents
 
-| Partition | StateWidth | Key state indices |
-|-----------|-----------|-------------------|
-| `turn` | 8 | game_phase, phase_number, round_type, or_number, active_entity_type, active_entity_id, action_type, action_step |
-| `action` | 20 | action_type + up to 19 args (meaning varies by action type) |
-| `bank` | ~30 | cash, trains_available[6 types], train_phase, tiles_available[~22 types] |
-| `market` | 14 | 7 companies x (row, col) on stock grid |
-| `map` | 72 | 24 hexes x (tile_id, orientation, token_bitfield) |
-| `company_0`..`company_6` | 16 each | treasury, floated, trains_held[6], tokens_remaining, par, president, shares_ipo, shares_market, last_revenue, receivership |
-| `player_0`..`player_3` | 18 each | cash, shares_held[7 companies], privates_held[8], priority_deal, cert_count |
+### Heuristic
 
-**Upstream wiring:** `turn → action → {bank, market, map, company_*, player_*}`
+Fast rule-based agent used for bulk simulation and MCTS playouts:
 
----
+- **Stock round:** buy cheapest share of highest-revenue company; sell tanking companies
+- **Tile lay:** extend routes from own tokens
+- **Routes:** optimal non-overlapping assignment via backtracking
+- **Dividends:** pay out if revenue covers upcoming train costs; otherwise withhold
+- **Train purchase:** buy cheapest train that covers best route
 
-## Implementation Steps
+### MCTS
 
-### Step 1: Game Data Layer (`pkg/gamedata/`)
-- Define all types: `HexDef`, `TileDef`, `CompanyDef`, `PrivateDef`, `TrainDef`, `MarketCell`, `GameConfig`
-- Hardcode 1889 defaults (reference: 18xx.games Ruby source for exact values)
-- YAML loader + validation for `GameConfig`
-- **Test:** config loads, counts match (7 companies, 8 privates, 6 train types, ~24 hexes)
-- **No stochadex dependency needed**
+Monte Carlo Tree Search agent for stronger play. At each decision point:
 
-### Step 2: Turn Controller + Skeleton Loop
-- `TurnControllerIteration`: FSM that advances through Private Auction → SR → OR(s) → SR → ...
-- `ActionIteration`: wraps an `Agent` interface, calls `agent.ChooseAction()`
-- `BankIteration`: tracks cash and availability
-- `builder.go`: wires partitions via `ConfigGenerator`
-- Trivial "always pass" agent
-- **Test:** 10 steps of SR with all-pass, turn controller advances correctly
+1. Enumerate legal moves
+2. For each candidate, run N full-game playouts (heuristic agents fill other seats)
+3. Score by final portfolio value (cash + shares × market price)
+4. Select move with highest mean score (UCB1 exploration)
 
-### Step 3: Stock Round
-- `PlayerIteration` + `MarketIteration` with buy/sell/pass logic
-- `LegalStockRoundActions()` — certificate limits, presidency rules, can't-sell-then-buy-same
-- Heuristic agent makes simple buy decisions
-- **Test:** full SR cycle, verify cert limits, priority deal, price movement
-
-### Step 4: Map + Tile Laying
-- `MapIteration` with tile placement logic
-- `LegalTileLayActions()` — valid upgrades, orientation, connectivity, terrain costs
-- **Test:** tile placement rules verified against known valid/invalid placements
-
-### Step 5: Route Finding + Revenue (hardest algorithmic piece)
-- Build track graph from map state (nodes = hex edges/cities, edges = tile segments)
-- Enumerate valid routes per train (N stops, must start from company token)
-- Optimal non-overlapping assignment via backtracking with pruning
-- **Test:** hand-crafted map states with known optimal revenues
-
-### Step 6: Full Operating Round
-- `CompanyIteration` with all OR sub-steps: tile → token → routes → dividends → trains
-- Dividend/withhold stock price movement
-- Token placement logic
-- **Test:** complete SR → OR → SR cycle for one company
-
-### Step 7: Phase Transitions + Train Rusting
-- Phase advances when new train types purchased (4-train → phase 3, 5-train → phase 5)
-- Train rusting (2-trains rust on 4-train purchase, 3-trains on 6-train)
-- Private company closure at phase 5
-- OR count increases by phase: [1, 1, 2, 2, 3]
-- Custom `BankBrokenTerminationCondition`
-- **Test:** full game runs to bank-break with heuristic agents
-
-### Step 8: Game Validation
-- Parse a known 1889 game log (from 18xx.games JSON export)
-- Replay move-by-move, compare intermediate states
-- Fix rule bugs until replay matches
-- **Test:** at least one complete game replay produces identical states
-
-### Step 9: Heuristic Agent (`pkg/policy/heuristic.go`)
-- SR: buy cheapest share of highest-revenue company; sell tanking companies; pass if nothing good
-- Tile: extend routes from own tokens
-- Routes: always use `OptimalRouteAssignment` (deterministic)
-- Dividends: pay if revenue > 2x next train cost needed; else withhold
-- Trains: buy cheapest that covers best route
-- **Test:** 100 games terminate in 150-300 actions without panics
-
-### Step 10: MCTS Agent (`pkg/policy/mcts.go`)
-- At each decision: enumerate legal moves, run N playout simulations per candidate
-- Each playout = full game simulation via `NewPartitionCoordinator` + `Run()` with heuristic agents
-- UCB1 tree policy, root parallelization across goroutines
-- Score = final portfolio value (cash + share holdings at market price)
-- **Test:** MCTS beats heuristic in head-to-head 4-player games
-
-### Step 11: Analysis + CLI
-- `analysis/metrics.go`: Gini coefficient, game length distribution, company float/survival rates, hex utilization, comeback potential, opening convergence
-- `analysis/runner.go`: run N simulations, collect `RunResult` structs
-- `analysis/report.go`: generate Markdown balance report
-- `cmd/18xxdesigner/main.go`: `run`, `compare`, `replay` subcommands
-- **Test:** `18xxdesigner run --config 1889.yaml --players 4 --sims 100` produces valid report
+Built as stochadex partitions following the evolution strategies optimiser pattern: action selector → embedded playout simulation → statistics accumulation.
 
 ---
 
-## Key Technical Risks
-
-1. **Route finding complexity** — Mitigated by 1889's small map (~24 hexes). Cache track graph, rebuild only on map changes. Backtracking with pruning is sufficient for ≤4 trains.
-2. **Legal move generator edge cases** — Stock round has many rules (emergency share issues, forced train purchase, receivership, bankruptcy). Budget extra time. Use 18xx.games Ruby source as reference.
-3. **MCTS branching factor** — Hundreds of legal moves in some states. Mitigate with: progressive widening, time budgets per move, heuristic move ordering to try promising moves first.
-4. **Harness compatibility** — Every iteration must pass `RunWithHarnesses` (no NaN, no params mutation, correct state width, deterministic). Use `params.GetCopy()` defensively.
-
----
-
-## Build & Run
+## Build & Test
 
 ```bash
-go build ./...                                    # compile
-go test -count=1 ./...                            # run all tests
-go run github.com/umbralcalc/stochadex/cmd/stochadex --config cfg/builtin_example.yaml
+go build ./...               # compile all packages
+go test -count=1 ./...       # run full test suite (~20s)
+go test -count=1 -short ./...  # skip long-running benchmarks
 ```
+
+---
+
+## License
+
+See [LICENSE](LICENSE).
